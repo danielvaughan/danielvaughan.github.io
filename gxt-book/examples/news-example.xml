@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
+	<channel>
+		<title>Sample News</title>
+		<link>http://www.example.com//</link>
+		<description>A collection of example news</description>
+		<pubDate>Mon, 1 Jan 2000 00:00:00 GMT</pubDate>
+		<image>
+			<url>http://www.danielvaughan.com/gxt-book/examples/images/running.jpg</url>
+		</image>
+		<item>
+			<title>Computers get more powerful</title>
+			<link>http://www.example.com/item573.html</link>
+			<description>New computers are more powerful than the computers that
+				were around a year ago. They are also much more powerful than the
+				computers from five years ago. If you were to compare current
+				computers with the computers of twenty years ago you would fine they
+				are far more powerful.</description>
+			<pubDate>Tue, 03 Jun 2003 09:39:21 GMT</pubDate>
+			<media:thumbnail url="http://www.danielvaughan.com/gxt-book/examples/images/computers.jpg" width="66"
+				height="49" />
+			<guid>http://www.example.com/2003/06/03.html#item573</guid>
+		</item>
+		<item>
+			<title>Gerry the giraffe has longest neck</title>
+			<link>http://www.example.com/item572.html</link>
+			<description>Gerry the giraffe is no ordinary giraffe, Gerry is now
+				the official world record holder for the longest neck in the world.
+				At
+				five meters Gerry's incredibly long neck ensures that he can reach
+				leaves on the very highest trees in his field.</description>
+			<pubDate>Tue, 03 Jun 2003 14:34:12 GMT</pubDate>
+			<media:thumbnail url="http://www.danielvaughan.com/gxt-book/examples/images/giraffe.jpg" width="66"
+				height="49" />
+			<guid>http://www.example.com/2003/06/03.html#item572</guid>
+		</item>
+		<item>
+			<title>New colour pencil introduced</title>
+			<link>http://www.example.com/item571.html</link>
+			<description>For many years it was forgotten. It was simply not
+				possible to buy a pink coloured pencil. Now a leading coloured
+				pencil manufacturer has put this right by adding a pink pencil to
+				its range.</description>
+			<pubDate>Tue, 02 Jun 2003 19:29:23 GMT</pubDate>
+			<media:thumbnail url="http://www.danielvaughan.com/gxt-book/examples/images/pencils.jpg" width="66"
+				height="49" />
+			<guid>http://www.example.com/2003/06/02.html#item571</guid>
+		</item>
+		<item>
+			<title>Pen used to draw complex charts</title>
+			<link>http://www.example.com/item570.html</link>
+			<description>A pen has been used to draw complex charts for the first
+				time. Previously it was impossible for a pen to be used to draw
+				complex charts as the line it produced was too fat. Now for the
+				first time a pen with a thin enough line has been produced. </description>
+			<pubDate>Tue, 02 Jun 2003 10:19:11 GMT</pubDate>
+			<media:thumbnail url="http://www.danielvaughan.com/gxt-book/examples/images/markets.jpg" width="66"
+				height="49" />
+			<guid>http://www.example.com/2003/06/02.html#item570</guid>
+		</item>
+	</channel>
+</rss>
