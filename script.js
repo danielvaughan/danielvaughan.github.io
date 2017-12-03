@@ -5,8 +5,8 @@ $(document).ready(function () {
     var learningInUrl;
     var learningOutUrl;
     if (hash !== undefined) {
-        skillsUrl = "https://ax4kqagln6.execute-api.eu-west-1.amazonaws.com/test/gcscc/skills/public/" + hash;
-        profileUrl = "https://ax4kqagln6.execute-api.eu-west-1.amazonaws.com/test/gcscc/profile/public/" + hash;
+        skillsUrl = "https://api.skillsmapper.org/profile/skills?hash=" + hash;
+        profileUrl = "https://api.skillsmapper.org/profile?hash=" + hash;
         learningInUrl = "https://ax4kqagln6.execute-api.eu-west-1.amazonaws.com/test/gcscc/learning/byperson/in/" + hash;
         learningOutUrl = "https://ax4kqagln6.execute-api.eu-west-1.amazonaws.com/test/gcscc/learning/byperson/out/" + hash;
     }
