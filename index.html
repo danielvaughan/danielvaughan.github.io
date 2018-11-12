@@ -79,22 +79,18 @@
 <footer class="footer">
     <div class="container">
         <p class="text-muted">&copy; Copyright 2000
-            <script>new Date().getFullYear() > 2000 && document.write('–' + new Date().getFullYear())</script>
-            , Daniel Vaughan
+            <script>new Date().getFullYear() > 2000 && document.write('–' + new Date().getFullYear())</script>, Daniel Vaughan
         </p>
     </div>
 </footer>
-<script type="text/javascript">
-  var gaJsHost = (('https:' == document.location.protocol) ? 'https://ssl.' : 'http://www.')
-  document.write(unescape('%3Cscript src=\'' + gaJsHost + 'google-analytics.com/ga.js\' type=\'text/javascript\'%3E%3C/script%3E'))
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-259183-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-</script>
-<script type="text/javascript">
-  try {
-    var pageTracker = _gat._getTracker('UA-259183-2')
-    pageTracker._trackPageview()
-  } catch (err) {
-  }
+  gtag('config', 'UA-259183-2');
 </script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
