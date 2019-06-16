@@ -3,7 +3,7 @@ layout: page
 title: Daniel Vaughan
 ---
 
-<img style="float: left; margin-right: 20px; border: 1px solid" src="img/danielvaughan-com.jpeg">
+<img style="float: right; margin-left: 20px; border: 1px solid" src="img/danielvaughan-com.jpeg">
 I’m Daniel Vaughan. I enable teams to deliver business value through software, rapidly and sustainably.
 
 I am currently a Cloud Solutions Expert at HCL Cloud Native Labs in central London. I specialise in the [IBM Garage Method](https://www.ibm.com/garage){:target="_blank"}, a combination of industry practices, including Enterprise Design Thinking, Lean Startup, agile development and continuous delivery with implementation on [IBM Public, Private and Hybrid Cloud](https://www.ibm.com/cloud/){:target="_blank"} platforms.
