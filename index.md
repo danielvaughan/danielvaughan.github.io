@@ -3,19 +3,15 @@ layout: page
 title: Daniel Vaughan
 ---
 
-I’m Daniel Vaughan. I love creating software that people value and enabling others to do the same.
+I’m Daniel Vaughan. I enable teams to deliver business value through software, rapidly and sustainably.
 
-I enable teams to deliver business value through software, quickly and sustainably. The majority of my current work is on cloud-native platforms.
+I am currently a Cloud Solutions Expert at HCL Cloud Native Labs in central London. I specialise in the [IBM Garage Method](https://www.ibm.com/garage), a combination of industry practices, including Enterprise Design Thinking, Lean Startup, agile development and continuous delivery with implementation on [IBM Public, Private and Hybrid Cloud](https://www.ibm.com/cloud/) platforms.
 
-I work as a Cloud-native Solutions Expert at HCL Cloud Native Labs based in central London. 
+Much of my current technical skills were built at the [European Bioinformatics Institute](https://www.ebi.ac.uk) in Cambridge, UK where I worked on data submission systems. A highlight being Technical Lead for the Ingestion team of the [Human Cell Atlas](https://www.humancellatlas.org) [Data Coordination Platform](https://www.humancellatlas.org/data-sharing), one of the first projects at the institute to embrace public cloud technologies.
 
-I previously worked at the [European Bioinformatics Institute](https://www.ebi.ac.uk) in Cambridge, UK where amongst other roles I was Technical Lead for the Ingestion component of the [Human Cell Atlas](https://www.humancellatlas.org) [Data Coordination Platform](https://www.humancellatlas.org/data-sharing).
+Before that I worked in a variety of software development roles at startups, enterprises and consultancies in a career that started in the late 1990s.
             
-I work with many technologies including Java, Spring, Go and a bit of Python. I have a broad exposure public and private Cloud Platforms day-to-day based on Kubernetes and Cloud Foundry, and a range of databases and infrastructure.
-
-I am particularly passionate about community and skills development. I founded the [Genome Campus Software Community ](https://www.meetup.com/Genome-Campus-Software-Craftsmanship-Community) and EMBL-EBI Technical Seminars Programme, bringing people together to share their ideas and expertise. I am an advocate of the benefits technology brings but also mindful of the challenges it can cause and seek out many perspectives.
-
-Other professional interests include futurism especially around the future of work and automation.
+I am particularly passionate about community and skills development. I founded the Genome Campus Software Community  and EMBL-EBI Technical Seminars Programme, bringing people together to share their ideas, expertise and perspectives. I still believe that [Meetups](https://www.meetup.com) are one of the best ways of building tech communities. Other professional interests include futurism especially around the future of work and automation.
 
 If you know me professionally or would like to know more about my work please see my profile on [LinkedIn](https://www.linkedin.com/in/danielpvaughan).
 
