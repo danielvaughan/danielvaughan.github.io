@@ -3,7 +3,7 @@ layout: page
 title: Daniel Vaughan
 ---
 
-<img style="float: right; margin-left: 20px; border: 1px solid; border-radius: 50%;" src="img/danielvaughan-com.jpeg">
+<img style="float: right; margin-left: 20px; border: 1px solid; border-radius: 50%; border-color: #5a5a5a;" src="img/danielvaughan-com.jpeg">
 I’m Daniel Vaughan. I enable teams to deliver business value through software, rapidly and sustainably.
 
 I am currently a Cloud Solutions Expert at HCL Cloud Native Labs in central London. I specialise in the introduction and application of a combination of industry practices, including Design Thinking, Lean Startup, agile development and continuous delivery in enterprises with solution implementation on Private and Hybrid Cloud platforms.
