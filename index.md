@@ -27,7 +27,6 @@ If you don't know me but would like to meet for a coffee and chat please [DM me 
 <a href="https://www.youracclaim.com/badges/07dc896b-914b-43c8-a4fb-a621ae1990ae"><img src="https://images.youracclaim.com/images/f88d800c-5261-45c6-9515-0458e31c3e16/ckad%2Bfrom%2Bcncfsite.png" width="100px"/></a>
 <a href="https://www.youracclaim.com/badges/9b847a70-bdb8-44a6-b8d8-3536d34ec9d5"><img src="https://images.youracclaim.com/images/468402d2-f1aa-45f2-b9f6-5900521803e8/cfcd-from-cffsite.png" width="100px"/></a>
 <a href="http://bcert.me/saaqkhrq"><img src="https://bcert.me/bc/html/img/badges/generated/badge-6176.png" width="100px"/></a>
-<a href="https://www.scrum.org/certificates/166381"><img src="https://static.scrum.org/web/badges/badge-psmi.svg" height="100px"/></a>
 <a href="https://www.youracclaim.com/earner/earned/badge/07d1911c-7dd0-43be-9a01-3f8288cec401"><img src="https://images.youracclaim.com/images/59b78dac-c708-46c6-986b-a918efeb1606/IBM%2BGarage%2BMethod%2Bfor%2BCloud%2B-%2BAdvocate.png" width="100px"/></a>
 <a href="https://www.scrum.org/certificates/166381"><img src="https://static.scrum.org/web/badges/badge-psmi.svg" height="100px"/></a>
 
