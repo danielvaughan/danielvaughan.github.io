@@ -26,7 +26,7 @@ I am particularly passionate about community and skills development. I founded t
 
 If you know me professionally or would like to know more about my work please see my profile on [LinkedIn](https://www.linkedin.com/in/danielpvaughan){:target="_blank"}.
 
-If you know me socially you can connect to me on [Facebook](http://www.facebook.com/daniel.p.vaughan){:target="_blank"} or follow me on [Twitter](http://twitter.com/DanielVaughan){:target="_blank"}.
+If you know me socially you can connect to me on [Facebook](https://www.facebook.com/daniel.p.vaughan){:target="_blank"} or follow me on [Twitter](https://twitter.com/DanielVaughan){:target="_blank"}.
                 
 If you don't know me but would like to meet for a coffee and chat please [DM me on Twitter](https://twitter.com/messages/compose?recipient_id=20809535){:target="_blank"}.
 
