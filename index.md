@@ -26,8 +26,8 @@ If you don't know me but would like to meet for a coffee and chat please [DM me 
 <a href="https://www.credential.net/aibigtrj"><img src="https://s3.amazonaws.com/accredible-api-badge/1521044380812.png" width="95px"/></a>
 <a href="https://www.youracclaim.com/badges/07dc896b-914b-43c8-a4fb-a621ae1990ae"><img src="https://images.youracclaim.com/images/f88d800c-5261-45c6-9515-0458e31c3e16/ckad%2Bfrom%2Bcncfsite.png" width="95px"/></a>
 <a href="https://www.youracclaim.com/badges/9b847a70-bdb8-44a6-b8d8-3536d34ec9d5"><img src="https://images.youracclaim.com/images/468402d2-f1aa-45f2-b9f6-5900521803e8/cfcd-from-cffsite.png" width="95px"/></a>
-<!--
-<a href="http://bcert.me/saaqkhrq"><img src="https://bcert.me/bc/html/img/badges/generated/badge-6176.png" width="95px"/></a>
-<a href="https://www.youracclaim.com/earner/earned/badge/07d1911c-7dd0-43be-9a01-3f8288cec401"><img src="https://images.youracclaim.com/images/59b78dac-c708-46c6-986b-a918efeb1606/IBM%2BGarage%2BMethod%2Bfor%2BCloud%2B-%2BAdvocate.png" width="95px"/></a>
-<a href="https://www.scrum.org/certificates/166381"><img src="https://static.scrum.org/web/badges/badge-psmi.svg" height="95px"/></a>
--->
+<br/>
+<a href="https://www.youracclaim.com/badges/7b603b45-0a57-4c27-ae2a-0c6c0492464a"><img src="https://images.youracclaim.com/size/680x680/images/16f22d55-babd-448b-8265-cc81108a6430/Cloud%2BService%2BMgmt%2Band%2BOps%2BExplorer%2Bv2.png" width="95px"/></a>
+<a href="https://www.youracclaim.com/badges/70f8e70a4-4359-4d65-b1f2-9e1158cc2a77"><img src="https://images.youracclaim.com/size/680x680/images/c3c663db-56e2-4e2f-8d5d-1457842d308d/IBM%2BGarage%2BMethod%2Bfor%2BCloud%2B-%2BExplorer.png" width="95px"/></a>
+<a href="https://www.youracclaim.com/badges/9006b5fb-1994-4ab3-be26-bda2f3f484a6"><img src="https://images.youracclaim.com/size/680x680/images/90f6af3b-70a4-47c1-9ee8-389cdaa05b23/IBM%2BCloud%2BPrivate%2B-%2BInfrastructure%2B-%2BArchitecture.png" width="95px"/></a>
+<a href="https://www.youracclaim.com/badges/98550a78-ed58-445a-bf40-59fc3a6684ee"><img src="https://images.youracclaim.com/size/680x680/images/39b80b52-77e4-4da5-9a52-7933c1d3bdd7/IBM%2BCloud%2BPrivate%2B-%2BFoundation%2BTechnology.png" width="95px"/></a>
