@@ -2,8 +2,8 @@ title: "Daniel Vaughan"
 email: "website@danielvaughan.com"
 description: "Daniel Vaughan is a cloud native solutions expert based in London, UK"
 url: "https://danielvaughan.com"
-twitter_username: @DanielVaughan
-github_username:  danielvaughan
+twitter_username: "@DanielVaughan"
+github_username:  "danielvaughan"
 # Build settings
 plugins:
   - jekyll-feed
