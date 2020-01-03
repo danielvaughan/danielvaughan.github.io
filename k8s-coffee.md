@@ -4,9 +4,7 @@ title: Kubernetes Coffee
 ---
 An informal catchup to discuss all things Kubernetes.
 
-<img src='https://kubernetes.io/images/kubernetes-horizontal-color.png'>
-
-Meeting on the *second Wednesday of the month* between *8am to 9am* at Joe and the Juice at Bishopsgate in the City of London.
+Meeting on the <b>second Wednesday of the month</b> between <b>8am to 9am</b> at Joe and the Juice at Bishopsgate in the City of London.
 
 No agenda, no RSVPs just drop in and chat over coffee.
 
