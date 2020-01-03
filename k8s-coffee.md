@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Kubernetes Coffee
+title: Kubernetes Breakfast Coffee
 ---
 An informal catchup to discuss all things Kubernetes.
 
