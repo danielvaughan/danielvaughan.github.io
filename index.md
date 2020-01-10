@@ -3,7 +3,7 @@ layout: page
 title: Daniel Vaughan
 ---
 
-<img style="float: right; margin-left: 20px; border: 1px solid; border-radius: 50%; border-color: #5a5a5a;" src="img/danielvaughan-com.jpeg">
+<img style="float: right; margin-left: 20px; border: 1px solid; border-radius: 50%; border-color: #5a5a5a;" src="img/danielvaughan-com.jpeg" alt="Daniel Vaughan Photo">
 I’m Daniel Vaughan. I enable teams to deliver business value through software, rapidly and sustainably.
 
 I am currently a Cloud Solutions Expert at HCL Cloud Native Labs in central London where I help organisations plan journeys to cloud native platforms and overcome challenges to adoption. This includes migration and modernisation strategies for existing applications and how to ensure compliance and security requirements are maintained.
@@ -28,7 +28,7 @@ If you know me professionally or would like to know more about my work please se
 
 If you know me socially you can connect to me on [Facebook](https://www.facebook.com/daniel.p.vaughan){:target="_blank"} or follow me on [Twitter](https://twitter.com/DanielVaughan){:target="_blank"}.
                 
-If you don't know me but would like to meet for a coffee and chat please [DM me on Twitter](https://twitter.com/messages/compose?recipient_id=20809535){:target="_blank"}.
+If you don't know me but would like to meet for a coffee and chat please [DM me on Twitter](https://twitter.com/messages/compose?recipient_id=20809535){:target="_blank"}. I also organise a [Kubernetes Breakfast Coffee](k8s-coffee.md) event each month and everyone is welcome.
 
 <a href="https://www.certmetrics.com/amazon/public/badge.aspx?i=2&t=c&d=2018-02-26&ci=AWS00180111"><img src="https://www.certmetrics.com/api/ob/image/amazon/c/2" width="95px"/></a>
 <a href="https://www.certmetrics.com/amazon/public/badge.aspx?i=1&t=c&d=2016-02-26&ci=AWS00180111"><img src="https://www.certmetrics.com/api/ob/image/amazon/c/1" width="95px"/></a>
