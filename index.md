@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Daniel Vaughan
+description: Daniel Vaughan is a cloud native solutions expert based in London, UK
 ---
 
 <img style="float: right; margin-left: 20px; border: 1px solid; border-radius: 50%; border-color: #5a5a5a;" src="img/danielvaughan-com.jpeg" alt="Daniel Vaughan Photo">

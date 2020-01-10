@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Kubernetes Breakfast Coffee
+description: An informal catchup to discuss all things Kubernetes & Cloud Native
 ---
 
 <img style="float: right; margin-left: 20px; border: 1px solid; border-radius: 50%; border-color: #5a5a5a;" src="img/danielvaughan-com.jpeg"> 
