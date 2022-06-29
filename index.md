@@ -26,7 +26,8 @@ Before that I worked in a variety of software development roles at startups, ent
 I am particularly passionate about community and skills development. I founded the Genome Campus Software Community  and EMBL-EBI Technical Seminars Programme, bringing people together to share their ideas, expertise and perspectives. I still believe that [Meetups](https://www.meetup.com){:target="_blank"} are one of the best ways of building tech communities. Other professional interests include futurism especially around the future of work and automation.
 
 If you know me professionally or would like to know more about my work please see my profile on [LinkedIn](https://www.linkedin.com/in/danielpvaughan){:target="_blank"}.
-                
+
+<!--                
 If you don't know me but would like to meet for a coffee and chat please [DM me on Twitter](https://twitter.com/messages/compose?recipient_id=20809535){:target="_blank"}. I also organise a [Kubernetes Breakfast Coffee](k8s-coffee.md) event each month and everyone is welcome.
 
 <a href="https://www.certmetrics.com/amazon/public/badge.aspx?i=2&t=c&d=2018-02-26&ci=AWS00180111"><img src="https://www.certmetrics.com/api/ob/image/amazon/c/2" width="95px" alt="AWS Certified Developer - Associate"/></a>
@@ -42,3 +43,4 @@ If you don't know me but would like to meet for a coffee and chat please [DM me 
 <a href="https://www.youracclaim.com/badges/201982a0-a199-45f3-867e-7da3ebfc76b6"><img src="https://images.youracclaim.com/size/680x680/images/71ea5682-2233-434c-a2c5-dd3f7fb8d5e9/Garage%2BMethod%2B-%2BTest%2Bdriven%2BDevelopment%2BV1%2B-%2B%2BFinal.png" width="95px"/></a>
 <a href="https://www.youracclaim.com/badges/8b94768b-4c13-4053-b140-514b6b0ba1f7"><img src="https://images.youracclaim.com/size/680x680/images/7ca56f92-b8e3-4202-96de-8a813d0ebc01/IBM%2BCloud%2BPrivate%2B-%2BCont%2BEd%2BCI-CD%2BPipe.png" width="95px"/></a>
 <a href="https://www.youracclaim.com/badges/07d1911c-7dd0-43be-9a01-3f8288cec401"><img src="https://images.youracclaim.com/size/680x680/images/59b78dac-c708-46c6-986b-a918efeb1606/IBM%2BGarage%2BMethod%2Bfor%2BCloud%2B-%2BAdvocate.png" width="95px"/></a>
+-->
