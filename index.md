@@ -36,8 +36,8 @@ If you don't know me but would like to meet for a coffee and chat please [DM me 
 <a href="https://www.credential.net/10db7e45-3a2a-4aa7-9cb2-0deac907899a"><img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/13638290" width="95px" alt="Google Cloud Professional Cloud Architect"/></a>
 <a href="https://www.credential.net/dd5718b0-fbb3-4079-9b43-1078dd05b785"><img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/40381766" width="95px" alt="Google Cloud Professional Data Engineer"/></a>
 <a href="https://www.credential.net/83d6b919-8fa0-4bbd-9485-ea4b02ae7d4c"><img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/40814275" width="95px" alt="Google Cloud Professional Cloud Developer"/></a>
-<a href="https://www.credential.net/6afa3a40-e503-4be5-8094-e1a79ef29967"><img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/51218787" width="95px" alt="Google Cloud Professional Cloud Network Engineer/></a>
-<a href="https://www.credential.net/39fffc7d-767d-49d9-8137-7c7b7d8eb93b"><img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/52738357" width="95px" alt="Google Cloud Professional Cloud Security Engineer/></a>
+<a href="https://www.credential.net/6afa3a40-e503-4be5-8094-e1a79ef29967"><img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/51218787" width="95px" alt="Google Cloud Professional Cloud Network Engineer"/></a>
+<a href="https://www.credential.net/39fffc7d-767d-49d9-8137-7c7b7d8eb93b"><img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/52738357" width="95px" alt="Google Cloud Professional Cloud Security Engineer"/></a>
 
 <br/><br/>
 <!--
