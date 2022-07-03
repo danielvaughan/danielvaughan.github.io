@@ -6,7 +6,7 @@ description: Daniel Vaughan is a cloud native solutions expert based in London, 
 <img style="float: right; margin-left: 20px; border: 1px solid; border-radius: 50%; border-color: #5a5a5a;" src="img/daniel-vaughan.png" alt="Daniel Vaughan Photo">
 I’m Daniel Vaughan. I help organisations get the most from public cloud.
 
-I currently work at Mastercard in London where I am responsible for cloud strategy and architecture for real-time payment products.
+I currently work at [Mastercard](https://www.vocalink.com/) in London where I am responsible for cloud strategy and architecture for [real-time payment products](https://b2b.mastercard.com/real-time-payments/).
 
 Previously I was at HCL Cloud Native Lab, beginning as a Cloud Native Solutions Expert helping organisations move to the cloud. I progressed to lead the IBM Red Hat Ecosystem and then to be the cross-ecosystem Head of Solutions Architecture which gave me a broad exposure helping many customers to cloud.
 
