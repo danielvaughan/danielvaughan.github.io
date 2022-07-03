@@ -8,9 +8,9 @@ I’m Daniel Vaughan. I help organisations get the most from public cloud.
 
 I currently work at Mastercard in London where I am responsible for cloud strategy and architecture for real-time payment products.
 
-Previously I was at HCL Cloud Native Lab, beginning as a Cloud Native Solutions Expert helping organisations move to the cloud. I progressed to lead the IBM Red Hat Ecosystem and then to be the cross-ecosystem Head of Solutions Architecture which gave me a broad exposure to the potential and challenges of cloud offerings with many customers.
+Previously I was at HCL Cloud Native Lab, beginning as a Cloud Native Solutions Expert helping organisations move to the cloud. I progressed to lead the IBM Red Hat Ecosystem and then to be the cross-ecosystem Head of Solutions Architecture which gave me a broad exposure helping many customers to cloud.
 
-The main areas where I have been able to provide value are increasing developer productivity and reducing operations overhead. I also have a strong interest in software sustainability in the cloud and moving towards net-zero and am a member of the Green Software Foundation.
+The main areas where I have been able to provide value are increasing developer productivity and reducing operations overhead. I also have a strong interest in software sustainability in the cloud and moving towards net-zero and am a member of the [Green Software Foundation](https://greensoftware.foundation/).
 
 Before HCL I spend eight years in Bioinformatics at [European Bioinformatics Institute](https://www.ebi.ac.uk){:target="_blank"} in Cambridge where I started as a Software Engineer, moved into leading engineering teams and developed my cloud skills. At EMBL-EBI my main interest was software quality and developer productivity.
 
@@ -21,6 +21,8 @@ In my personal life, I live in Saffron Walden with my wife Michelle and son Alex
 If you know me professionally or would like to know more about my work please see my profile on [LinkedIn](https://www.linkedin.com/in/danielpvaughan){:target="_blank"}.
 
 If you don't know me but would like to chat please [DM me on Twitter](https://twitter.com/messages/compose?recipient_id=20809535){:target="_blank"}.
+
+<br/><br/>
 <!--
 <a href="https://www.credential.net/319dc5b0-24a3-4391-8c59-940e6c30e37f"><img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/52362645" width="95px" alt="Google Cloud Digital Leader"/></a>
 <a href="https://www.credential.net/b7f6794c-a9ae-4001-b557-233463b85b01"><img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/36997077" width="95px" alt="Google Cloud Associate Cloud Engineer"/></a>
@@ -32,7 +34,6 @@ If you don't know me but would like to chat please [DM me on Twitter](https://tw
 <a href="https://www.credential.net/6afa3a40-e503-4be5-8094-e1a79ef29967"><img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/51218787" width="95px" alt="Google Cloud Professional Cloud Network Engineer"/></a>
 <a href="https://www.credential.net/39fffc7d-767d-49d9-8137-7c7b7d8eb93b"><img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/52738357" width="95px" alt="Google Cloud Professional Cloud Security Engineer"/></a>
 
-<br/><br/>
 <!--
 <a href="https://www.youracclaim.com/badges/07dc896b-914b-43c8-a4fb-a621ae1990ae"><img src="https://images.youracclaim.com/images/f88d800c-5261-45c6-9515-0458e31c3e16/ckad%2Bfrom%2Bcncfsite.png" width="95px" alt="Certified Kubernetes Application Developer (CKAD)"/></a>
 <a href="https://www.youracclaim.com/badges/9b847a70-bdb8-44a6-b8d8-3536d34ec9d5"><img src="https://images.youracclaim.com/images/468402d2-f1aa-45f2-b9f6-5900521803e8/cfcd-from-cffsite.png" width="95px" alt="CCloud Foundry Certified Developer (CFCD)"/></a>
