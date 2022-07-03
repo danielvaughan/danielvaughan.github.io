@@ -3,35 +3,28 @@ layout: page
 title: Daniel Vaughan
 description: Daniel Vaughan is a cloud native solutions expert based in London, UK
 ---
-
 <img style="float: right; margin-left: 20px; border: 1px solid; border-radius: 50%; border-color: #5a5a5a;" src="img/daniel-vaughan.png" alt="Daniel Vaughan Photo">
-I’m Daniel Vaughan. I enable teams to deliver business value through software, rapidly and sustainably.
+I’m Daniel Vaughan. I help organisations get the most from public cloud.
 
-I am currently a Cloud Solutions Expert at HCL Cloud Native Labs in central London where I help organisations plan journeys to cloud native platforms and overcome challenges to adoption. This includes migration and modernisation strategies for existing applications and how to ensure compliance and security requirements are maintained.
+I currently work at Mastercard in London where I am responsible for cloud strategy and architecture for real-time payment products.
 
-My particular interest is the enablement of development and operations teams and how to scale those capabilities. This involves making the best use of new tools, technologies, and the agile and DevSecOps techniques cloud-native platforms enable.
+Previously I was at HCL Cloud Native Lab, beginning as a Cloud Native Solutions Expert helping organisations move to the cloud. I progressed to lead the IBM Red Hat Ecosystem and then to be the cross-ecosystem Head of Solutions Architecture which gave me a broad exposure to the potential and challenges of cloud offerings with many customers.
 
-<b>As a developer</b>, I enjoy developing scalable, distributed systems using clean, performant code. I value clear APIs, great documentation and comprehensive testing.
+The main areas where I have been able to provide value are increasing developer productivity and reducing operations overhead. I also have a strong interest in software sustainability in the cloud and moving towards net-zero and am a member of the Green Software Foundation.
 
-<b>As an architect</b>, I am experienced designing service-oriented, microservice, event-driven and serverless architectures. I value automation and reproducibility with platforms that are efficient to manage. 
+Before HCL I spend eight years in Bioinformatics at [European Bioinformatics Institute](https://www.ebi.ac.uk){:target="_blank"} in Cambridge where I started as a Software Engineer, moved into leading engineering teams and developed my cloud skills. At EMBL-EBI my main interest was software quality and developer productivity.
 
-<b>As a leader</b>, I build effective user-focused teams that embrace Agile and DevSecOps culture. I value continuous improvement, mentoring and knowledge sharing.
+I am particularly passionate about community and skills development. I founded the Genome Campus Software Community and EMBL-EBI Technical Seminars Programme, to bring people together to share their ideas, expertise and perspectives.
 
-<b>As a consultant</b>, I am equally comfortable having strategic discussions with CxOs as I am discussing technical details with engineers.
-
-Much of my current technical skills were built at the [European Bioinformatics Institute](https://www.ebi.ac.uk){:target="_blank"} in Cambridge, UK where I worked on data submission systems. A highlight of which was being Technical Lead for the Ingestion team of the [Human Cell Atlas](https://www.humancellatlas.org) [Data Coordination Platform](https://www.humancellatlas.org/data-sharing), one of the first projects at the institute to embrace public cloud technologies.
-
-Before that I worked in a variety of software development roles at startups, enterprises and consultancies in a career that started in the late 1990s.
-            
-I am particularly passionate about community and skills development. I founded the Genome Campus Software Community  and EMBL-EBI Technical Seminars Programme, bringing people together to share their ideas, expertise and perspectives. I still believe that [Meetups](https://www.meetup.com){:target="_blank"} are one of the best ways of building tech communities. Other professional interests include futurism especially around the future of work and automation.
+In my personal life, I live in Saffron Walden with my wife Michelle and son Alex.
 
 If you know me professionally or would like to know more about my work please see my profile on [LinkedIn](https://www.linkedin.com/in/danielpvaughan){:target="_blank"}.
-               
-If you don't know me but would like to meet for a coffee and chat please [DM me on Twitter](https://twitter.com/messages/compose?recipient_id=20809535){:target="_blank"}. I also organise a [Kubernetes Breakfast Coffee](k8s-coffee.md) event each month and everyone is welcome.
 
-
+If you don't know me but would like to chat please [DM me on Twitter](https://twitter.com/messages/compose?recipient_id=20809535){:target="_blank"}.
+<!--
 <a href="https://www.credential.net/319dc5b0-24a3-4391-8c59-940e6c30e37f"><img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/52362645" width="95px" alt="Google Cloud Digital Leader"/></a>
 <a href="https://www.credential.net/b7f6794c-a9ae-4001-b557-233463b85b01"><img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/36997077" width="95px" alt="Google Cloud Associate Cloud Engineer"/></a>
+-->
 <a href="https://www.credential.net/b6133a6a-1d34-47e2-b3cc-82fc5777da28"><img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/33249694" width="95px" alt="Google Cloud Professional Cloud DevOps Engineer"/></a>
 <a href="https://www.credential.net/10db7e45-3a2a-4aa7-9cb2-0deac907899a"><img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/13638290" width="95px" alt="Google Cloud Professional Cloud Architect"/></a>
 <a href="https://www.credential.net/dd5718b0-fbb3-4079-9b43-1078dd05b785"><img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/40381766" width="95px" alt="Google Cloud Professional Data Engineer"/></a>
