@@ -26,12 +26,12 @@ Before that I worked in a variety of software development roles at startups, ent
 I am particularly passionate about community and skills development. I founded the Genome Campus Software Community  and EMBL-EBI Technical Seminars Programme, bringing people together to share their ideas, expertise and perspectives. I still believe that [Meetups](https://www.meetup.com){:target="_blank"} are one of the best ways of building tech communities. Other professional interests include futurism especially around the future of work and automation.
 
 If you know me professionally or would like to know more about my work please see my profile on [LinkedIn](https://www.linkedin.com/in/danielpvaughan){:target="_blank"}.
-
-<!--                
+               
 If you don't know me but would like to meet for a coffee and chat please [DM me on Twitter](https://twitter.com/messages/compose?recipient_id=20809535){:target="_blank"}. I also organise a [Kubernetes Breakfast Coffee](k8s-coffee.md) event each month and everyone is welcome.
 
-<a href="https://www.certmetrics.com/amazon/public/badge.aspx?i=2&t=c&d=2018-02-26&ci=AWS00180111"><img src="https://www.certmetrics.com/api/ob/image/amazon/c/2" width="95px" alt="AWS Certified Developer - Associate"/></a>
-<a href="https://www.certmetrics.com/amazon/public/badge.aspx?i=1&t=c&d=2016-02-26&ci=AWS00180111"><img src="https://www.certmetrics.com/api/ob/image/amazon/c/1" width="95px" alt="AWS Certified Architect - Associate"/></a>
+
+<a href="https://www.credential.net/319dc5b0-24a3-4391-8c59-940e6c30e37f"><img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/52362645" width="95px" alt="Google Cloud Digital Leader"/></a> 
+<!--
 <a href="https://www.credential.net/ohdtkeku"><img src="https://s3.amazonaws.com/accredible-api-badge/1548277101436.png" width="95px" alt="Google Cloud Certified Associate Cloud Engineer"/></a>
 <a href="https://www.credential.net/aibigtrj"><img src="https://s3.amazonaws.com/accredible-api-badge/1521044380812.png" width="95px" alt="Google Cloud Certified Professional Cloud Architect"/></a>
 <a href="https://www.youracclaim.com/badges/07dc896b-914b-43c8-a4fb-a621ae1990ae"><img src="https://images.youracclaim.com/images/f88d800c-5261-45c6-9515-0458e31c3e16/ckad%2Bfrom%2Bcncfsite.png" width="95px" alt="Certified Kubernetes Application Developer (CKAD)"/></a>
