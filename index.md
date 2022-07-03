@@ -4,23 +4,21 @@ title: Daniel Vaughan
 description: Daniel Vaughan is a cloud native solutions expert based in London, UK
 ---
 <img style="float: right; margin-left: 20px; border: 1px solid; border-radius: 50%; border-color: #5a5a5a;" src="img/daniel-vaughan.png" alt="Daniel Vaughan Photo">
-I’m Daniel Vaughan. I help organisations get the most from public cloud.
+I’m Daniel Vaughan. I help organisations achieve the real benefits of the cloud.
 
-I currently work at [Mastercard](https://www.vocalink.com/) in London where I am responsible for cloud strategy and architecture for [real-time payment products](https://b2b.mastercard.com/real-time-payments/).
+I currently work at [Mastercard](https://www.vocalink.com/){:target="_blank"} in London, where I am responsible for cloud strategy and architecture for [real-time payment products](https://b2b.mastercard.com/real-time-payments/){:target="_blank"} .
 
-Previously I was at HCL Cloud Native Lab, beginning as a Cloud Native Solutions Expert helping organisations move to the cloud. I progressed to lead the IBM Red Hat Ecosystem and then to be the cross-ecosystem Head of Solutions Architecture which gave me a broad exposure helping many customers to cloud.
+Previously I was at HCL Cloud Native Labs, beginning as a Cloud Native Solutions Expert helping organisations move to the cloud. I progressed to lead the IBM Red Hat Ecosystem and then to be the cross-ecosystem Head of Solutions Architecture. This experience gave me a broad exposure to the potential and challenges of cloud offerings with many customers.
 
-The main areas where I have been able to provide value are increasing developer productivity and reducing operations overhead. I also have a strong interest in software sustainability in the cloud and moving towards net-zero and am a member of the [Green Software Foundation](https://greensoftware.foundation/).
+The main areas where I have been able to provide value are increasing developer productivity and reducing operations overhead. I also have a strong interest in software sustainability in the cloud and moving towards net-zero, and I am a member of the [Green Software Foundation](https://greensoftware.foundation/){:target="_blank"}.
 
-Before HCL I spend eight years in Bioinformatics at [European Bioinformatics Institute](https://www.ebi.ac.uk){:target="_blank"} in Cambridge where I started as a Software Engineer, moved into leading engineering teams and developed my cloud skills. At EMBL-EBI my main interest was software quality and developer productivity.
+Before HCL, I spent eight years in Bioinformatics at the [European Bioinformatics Institute](https://www.ebi.ac.uk){:target="_blank"} in Cambridge where I started as a Software Engineer, moved into leading engineering teams and developed my cloud skills. , where I started as a developer, moved into leading engineering teams and developed my cloud skills. At EMBL-EBI, my main interest was software quality and developer productivity.
 
-I am particularly passionate about community and skills development. I founded the Genome Campus Software Community and EMBL-EBI Technical Seminars Programme, to bring people together to share their ideas, expertise and perspectives.
+I am particularly passionate about community and skills development. I founded the Genome Campus Software Community and EMBL-EBI Technical Seminars Programme to bring people together to share their ideas, expertise and perspectives.
 
 In my personal life, I live in Saffron Walden with my wife Michelle and son Alex.
 
-If you know me professionally or would like to know more about my work please see my profile on [LinkedIn](https://www.linkedin.com/in/danielpvaughan){:target="_blank"}.
-
-If you don't know me but would like to chat please [DM me on Twitter](https://twitter.com/messages/compose?recipient_id=20809535){:target="_blank"}.
+Please see my profile on [LinkedIn](https://www.linkedin.com/in/danielpvaughan){:target="_blank"} if you know me professionally or would like to know more about my work. If you don’t know me but would like to chat, please [DM me on Twitter](https://twitter.com/messages/compose?recipient_id=20809535){:target="_blank"}.
 
 <br/><br/>
 <!--
