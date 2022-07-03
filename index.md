@@ -4,7 +4,7 @@ title: Daniel Vaughan
 description: Daniel Vaughan is a cloud native solutions expert based in London, UK
 ---
 
-<img style="float: right; margin-left: 20px; border: 1px solid; border-radius: 50%; border-color: #5a5a5a;" src="img/danielvaughan-com.jpeg" alt="Daniel Vaughan Photo">
+<img style="float: right; margin-left: 20px; border: 1px solid; border-radius: 50%; border-color: #5a5a5a;" src="img/daniel-vaughan.png" alt="Daniel Vaughan Photo">
 I’m Daniel Vaughan. I enable teams to deliver business value through software, rapidly and sustainably.
 
 I am currently a Cloud Solutions Expert at HCL Cloud Native Labs in central London where I help organisations plan journeys to cloud native platforms and overcome challenges to adoption. This includes migration and modernisation strategies for existing applications and how to ensure compliance and security requirements are maintained.
