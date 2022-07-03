@@ -30,13 +30,18 @@ If you know me professionally or would like to know more about my work please se
 If you don't know me but would like to meet for a coffee and chat please [DM me on Twitter](https://twitter.com/messages/compose?recipient_id=20809535){:target="_blank"}. I also organise a [Kubernetes Breakfast Coffee](k8s-coffee.md) event each month and everyone is welcome.
 
 
-<a href="https://www.credential.net/319dc5b0-24a3-4391-8c59-940e6c30e37f"><img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/52362645" width="95px" alt="Google Cloud Digital Leader"/></a> 
-<!--
-<a href="https://www.credential.net/ohdtkeku"><img src="https://s3.amazonaws.com/accredible-api-badge/1548277101436.png" width="95px" alt="Google Cloud Certified Associate Cloud Engineer"/></a>
-<a href="https://www.credential.net/aibigtrj"><img src="https://s3.amazonaws.com/accredible-api-badge/1521044380812.png" width="95px" alt="Google Cloud Certified Professional Cloud Architect"/></a>
+<a href="https://www.credential.net/319dc5b0-24a3-4391-8c59-940e6c30e37f"><img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/52362645" width="95px" alt="Google Cloud Digital Leader"/></a>
+<a href="https://www.credential.net/b7f6794c-a9ae-4001-b557-233463b85b01"><img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/36997077" width="95px" alt="Google Cloud Associate Cloud Engineer"/></a>
+<a href="https://www.credential.net/b6133a6a-1d34-47e2-b3cc-82fc5777da28"><img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/33249694" width="95px" alt="Google Cloud Professional Cloud DevOps Engineer"/></a>
+<a href="https://www.credential.net/10db7e45-3a2a-4aa7-9cb2-0deac907899a"><img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/13638290" width="95px" alt="Google Cloud Professional Cloud Architect/></a>
+<a href="https://www.credential.net/319dc5b0-24a3-4391-8c59-940e6c30e37f"><img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/52362645" width="95px" alt="Google Cloud Digital Leader"/></a>
+<a href="https://www.credential.net/319dc5b0-24a3-4391-8c59-940e6c30e37f"><img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/52362645" width="95px" alt="Google Cloud Digital Leader"/></a>
+<a href="https://www.credential.net/319dc5b0-24a3-4391-8c59-940e6c30e37f"><img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/52362645" width="95px" alt="Google Cloud Digital Leader"/></a>
+<a href="https://www.credential.net/319dc5b0-24a3-4391-8c59-940e6c30e37f"><img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/52362645" width="95px" alt="Google Cloud Digital Leader"/></a>
 <a href="https://www.youracclaim.com/badges/07dc896b-914b-43c8-a4fb-a621ae1990ae"><img src="https://images.youracclaim.com/images/f88d800c-5261-45c6-9515-0458e31c3e16/ckad%2Bfrom%2Bcncfsite.png" width="95px" alt="Certified Kubernetes Application Developer (CKAD)"/></a>
 <a href="https://www.youracclaim.com/badges/9b847a70-bdb8-44a6-b8d8-3536d34ec9d5"><img src="https://images.youracclaim.com/images/468402d2-f1aa-45f2-b9f6-5900521803e8/cfcd-from-cffsite.png" width="95px" alt="CCloud Foundry Certified Developer (CFCD)"/></a>
 <br/><br/>
+<!--
 <a href="https://www.youracclaim.com/badges/7b603b45-0a57-4c27-ae2a-0c6c0492464a"><img src="https://images.youracclaim.com/size/680x680/images/16f22d55-babd-448b-8265-cc81108a6430/Cloud%2BService%2BMgmt%2Band%2BOps%2BExplorer%2Bv2.png" width="95px"/></a>
 <a href="https://www.youracclaim.com/badges/70f8e70a4-4359-4d65-b1f2-9e1158cc2a77"><img src="https://images.youracclaim.com/size/680x680/images/c3c663db-56e2-4e2f-8d5d-1457842d308d/IBM%2BGarage%2BMethod%2Bfor%2BCloud%2B-%2BExplorer.png" width="95px"/></a>
 <a href="https://www.youracclaim.com/badges/9006b5fb-1994-4ab3-be26-bda2f3f484a6"><img src="https://images.youracclaim.com/size/680x680/images/90f6af3b-70a4-47c1-9ee8-389cdaa05b23/IBM%2BCloud%2BPrivate%2B-%2BInfrastructure%2B-%2BArchitecture.png" width="95px"/></a>
