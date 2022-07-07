@@ -4,7 +4,7 @@ title: Daniel Vaughan
 description: Daniel Vaughan is a cloud native solutions expert based in London, UK
 ---
 <img style="float: right; margin-left: 20px; border: 1px solid; border-radius: 50%; border-color: #5a5a5a;" src="img/daniel-vaughan.png" alt="Daniel Vaughan Photo">
-I’m Daniel Vaughan. I help organisations achieve the real benefits of the cloud. If you would like to know more please see my [blog](https://blog.danielvaughan.com).
+I’m Daniel Vaughan. I help organisations achieve the real benefits of the cloud. If you would like to know more please see my [blog](https://blog.danielvaughan.com){:target="_blank"}.
 
 I currently work at [Mastercard](https://www.vocalink.com/){:target="_blank"} in London, where I am responsible for cloud strategy and architecture for [real-time payment products](https://b2b.mastercard.com/real-time-payments/){:target="_blank"} .
 
