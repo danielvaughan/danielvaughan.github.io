@@ -31,6 +31,8 @@ Please see my profile on [LinkedIn](https://www.linkedin.com/in/danielpvaughan){
 <a href="https://www.credential.net/83d6b919-8fa0-4bbd-9485-ea4b02ae7d4c"><img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/40814275" width="95px" alt="Google Cloud Professional Cloud Developer"/></a>
 <a href="https://www.credential.net/6afa3a40-e503-4be5-8094-e1a79ef29967"><img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/51218787" width="95px" alt="Google Cloud Professional Cloud Network Engineer"/></a>
 <a href="https://www.credential.net/39fffc7d-767d-49d9-8137-7c7b7d8eb93b"><img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/52738357" width="95px" alt="Google Cloud Professional Cloud Security Engineer"/></a>
+<a href="https://www.credential.net/724d2f19-6d49-4718-b0c8-9b4536250aa5"><img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/67163992" width="95px" alt="Google 
+Cloud Professional Cloud Database Engineer"/></a>
 
 <!--
 <a href="https://www.youracclaim.com/badges/07dc896b-914b-43c8-a4fb-a621ae1990ae"><img src="https://images.youracclaim.com/images/f88d800c-5261-45c6-9515-0458e31c3e16/ckad%2Bfrom%2Bcncfsite.png" width="95px" alt="Certified Kubernetes Application Developer (CKAD)"/></a>
@@ -40,5 +42,6 @@ Please see my profile on [LinkedIn](https://www.linkedin.com/in/danielpvaughan){
 <a href="https://www.youracclaim.com/badges/9006b5fb-1994-4ab3-be26-bda2f3f484a6"><img src="https://images.youracclaim.com/size/680x680/images/90f6af3b-70a4-47c1-9ee8-389cdaa05b23/IBM%2BCloud%2BPrivate%2B-%2BInfrastructure%2B-%2BArchitecture.png" width="95px"/></a>
 <a href="https://www.youracclaim.com/badges/201982a0-a199-45f3-867e-7da3ebfc76b6"><img src="https://images.youracclaim.com/size/680x680/images/71ea5682-2233-434c-a2c5-dd3f7fb8d5e9/Garage%2BMethod%2B-%2BTest%2Bdriven%2BDevelopment%2BV1%2B-%2B%2BFinal.png" width="95px"/></a>
 <a href="https://www.youracclaim.com/badges/8b94768b-4c13-4053-b140-514b6b0ba1f7"><img src="https://images.youracclaim.com/size/680x680/images/7ca56f92-b8e3-4202-96de-8a813d0ebc01/IBM%2BCloud%2BPrivate%2B-%2BCont%2BEd%2BCI-CD%2BPipe.png" width="95px"/></a>
+<a href="https://www.youracclaim.com/badges/07d1911c-7dd0-43be-9a01-3f8288cec401"><img src="https://images.youracclaim.com/size/680x680/images/59b78dac-c708-46c6-986b-a918efeb1606/IBM%2BGarage%2BMethod%2Bfor%2BCloud%2B-%2BAdvocate.png" width="95px"/></a>
 <a href="https://www.youracclaim.com/badges/07d1911c-7dd0-43be-9a01-3f8288cec401"><img src="https://images.youracclaim.com/size/680x680/images/59b78dac-c708-46c6-986b-a918efeb1606/IBM%2BGarage%2BMethod%2Bfor%2BCloud%2B-%2BAdvocate.png" width="95px"/></a>
 -->
