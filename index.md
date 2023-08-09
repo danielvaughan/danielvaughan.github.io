@@ -6,7 +6,7 @@ description: Daniel Vaughan is a cloud native solutions expert based in London, 
 <img style="float: right; margin-left: 20px; border: 1px solid; border-radius: 50%; border-color: #5a5a5a;" src="img/daniel-vaughan.png" alt="Daniel Vaughan Photo" width=200>
 I’m Daniel Vaughan. I help organisations achieve the real benefits of the cloud. If you would like to know more please see my [blog](https://blog.danielvaughan.com){:target="_blank"}.
 
-I am the author of two books. One is [Ext GWT 2.0: Beginner's Guide](https://www.amazon.co.uk/Ext-GWT-2-0-Beginners-Guide/dp/1849511845){:target="_blank"} from 2010. The other is [Programming Cloud Native Applications with Google Cloud](https://www.amazon.co.uk/Programming-Cloud-Native-Applications-Google/dp/1098145089){:target="_blank"} due for publication in December 2023. For more information about the latter please see the [Cloud Native GCP Book](https://cloudnativegcp.com){:target="_blank"} website.
+I am the author of two books. One is [Ext GWT 2.0: Beginner's Guide](https://www.amazon.co.uk/Ext-GWT-2-0-Beginners-Guide/dp/1849511845){:target="_blank"} from 2010. The other is [Cloud Native Development with Google Cloud](https://cloudnativegcp.com){:target="_blank"} due for publication in December 2023. For more information about the latter please see the [Cloud Native GCP Book](https://cloudnativegcp.com){:target="_blank"} website.
 
 I currently work at [Mastercard](https://www.vocalink.com/){:target="_blank"} in London, where I am responsible for cloud strategy and architecture for [real-time payment products](https://b2b.mastercard.com/real-time-payments/){:target="_blank"} .
 
