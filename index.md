@@ -26,7 +26,6 @@ Please see my profile on [LinkedIn](https://www.linkedin.com/in/danielpvaughan){
 <!--
 <a href="https://www.credential.net/319dc5b0-24a3-4391-8c59-940e6c30e37f"><img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/52362645" width="95px" alt="Google Cloud Digital Leader"/></a>
 <a href="https://www.credential.net/b7f6794c-a9ae-4001-b557-233463b85b01"><img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/36997077" width="95px" alt="Google Cloud Associate Cloud Engineer"/></a>
--->
 <a href="https://www.credential.net/b6133a6a-1d34-47e2-b3cc-82fc5777da28"><img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/33249694" width="95px" alt="Google Cloud Professional Cloud DevOps Engineer"/></a>
 <a href="https://www.credential.net/10db7e45-3a2a-4aa7-9cb2-0deac907899a"><img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/13638290" width="95px" alt="Google Cloud Professional Cloud Architect"/></a>
 <a href="https://www.credential.net/dd5718b0-fbb3-4079-9b43-1078dd05b785"><img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/40381766" width="95px" alt="Google Cloud Professional Data Engineer"/></a>
@@ -35,8 +34,6 @@ Please see my profile on [LinkedIn](https://www.linkedin.com/in/danielpvaughan){
 <a href="https://www.credential.net/39fffc7d-767d-49d9-8137-7c7b7d8eb93b"><img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/52738357" width="95px" alt="Google Cloud Professional Cloud Security Engineer"/></a>
 <a href="https://www.credential.net/724d2f19-6d49-4718-b0c8-9b4536250aa5"><img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/67163992" width="95px" alt="Google 
 Cloud Professional Cloud Database Engineer"/></a>
-
-<!--
 <a href="https://www.youracclaim.com/badges/07dc896b-914b-43c8-a4fb-a621ae1990ae"><img src="https://images.youracclaim.com/images/f88d800c-5261-45c6-9515-0458e31c3e16/ckad%2Bfrom%2Bcncfsite.png" width="95px" alt="Certified Kubernetes Application Developer (CKAD)"/></a>
 <a href="https://www.youracclaim.com/badges/9b847a70-bdb8-44a6-b8d8-3536d34ec9d5"><img src="https://images.youracclaim.com/images/468402d2-f1aa-45f2-b9f6-5900521803e8/cfcd-from-cffsite.png" width="95px" alt="CCloud Foundry Certified Developer (CFCD)"/></a>
 <a href="https://www.youracclaim.com/badges/7b603b45-0a57-4c27-ae2a-0c6c0492464a"><img src="https://images.youracclaim.com/size/680x680/images/16f22d55-babd-448b-8265-cc81108a6430/Cloud%2BService%2BMgmt%2Band%2BOps%2BExplorer%2Bv2.png" width="95px"/></a>
