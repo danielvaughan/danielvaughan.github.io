@@ -14,7 +14,7 @@ Previously I was at HCL Cloud Native Labs, beginning as a Cloud Native Solutions
 
 The main areas where I have been able to provide value are increasing developer productivity and reducing operations overhead. I also have a strong interest in software sustainability in the cloud and moving towards net-zero, and I am a member of the [Green Software Foundation](https://greensoftware.foundation/){:target="_blank"} and a [Green Software Champion](https://champions.greensoftware.foundation/champions/daniel-vaughan/){:target="_blank"}.
 
-Before HCL, I spent eight years in Bioinformatics at the [European Bioinformatics Institute](https://www.ebi.ac.uk){:target="_blank"} in Cambridge where I started as a Software Engineer, moved into leading engineering teams and developed my cloud skills. , where I started as a developer, moved into leading engineering teams and developed my cloud skills. At EMBL-EBI, my main interest was software quality and developer productivity.
+Before HCL, I spent eight years in Bioinformatics at the [European Bioinformatics Institute](https://www.ebi.ac.uk){:target="_blank"} in Cambridge where I started as a Software Engineer, moved into leading engineering teams and developed my cloud skills. At EMBL-EBI, my main interest was software quality and developer productivity.
 
 I am particularly passionate about community and skills development. I founded the Genome Campus Software Community and EMBL-EBI Technical Seminars Programme to bring people together to share their ideas, expertise and perspectives. I am currently an organiser of the [Software Crafters Cambridge](https://www.meetup.com/cambridge-software-crafters/) and [GDG Cloud Cambridge](https://gdg.community.dev/gdg-cloud-cambridge/) Meetup groups.
 
