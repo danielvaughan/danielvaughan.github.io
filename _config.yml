@@ -14,3 +14,9 @@ exclude:
   - Gemfile.lock
   - node_modules
   - update_boostrap.sh
+  - "*.sh"
+  - CLAUDE.md
+  - context/
+  - redundant/
+  - index.old.html
+  - .playwright-mcp/

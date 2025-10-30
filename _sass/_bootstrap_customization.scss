@@ -326,3 +326,36 @@ legend {
     color: inherit;
   }
 }
+
+// Custom Profile Styles =======================================================
+
+.profile-image {
+  float: right;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  border: 1px solid #5a5a5a;
+  border-radius: 50%;
+  max-width: 100%;
+  height: auto;
+
+  @media (max-width: 575px) {
+    float: none;
+    display: block;
+    margin: 0 auto 20px;
+    max-width: 150px;
+  }
+}
+
+// Accessibility Helpers =======================================================
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}

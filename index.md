@@ -3,24 +3,41 @@ layout: page
 title: Daniel Vaughan
 description: Daniel Vaughan is a cloud native solutions expert based in London, UK
 ---
-<img style="float: right; margin-left: 20px; border: 1px solid; border-radius: 50%; border-color: #5a5a5a;" src="img/daniel-vaughan-en.jpg" alt="Daniel Vaughan Photo" width=200>
-I’m Daniel Vaughan. I help organisations achieve the real benefits of the cloud. If you would like to know more please see my [blog](https://blog.danielvaughan.com){:target="_blank"}.
+<img class="profile-image" src="img/daniel-vaughan-en.jpg" srcset="img/daniel-vaughan-en.jpg 1x, img/daniel-vaughan-en@2x.jpg 2x" alt="Daniel Vaughan Photo" width="200" height="200">
 
-I am the author of two books on Google technologies. One is [Ext GWT 2.0: Beginner's Guide](https://www.amazon.co.uk/Ext-GWT-2-0-Beginners-Guide/dp/1849511845){:target="_blank"} from 2010. The other is [Cloud Native Development with Google Cloud](https://cloudnativegcp.com){:target="_blank"} published in January 2024. For more information about the latter, please see the [Cloud Native GCP Book](https://cloudnativegcp.com){:target="_blank"} website. I am also a [Google Cloud Champion Innovator](https://cloud.google.com/innovators/innovator?profileId=104202580498566413630){:target="_blank"}.
+## About Me
 
-I currently work as a Director of Software Engineering at [Mastercard](https://www.vocalink.com/){:target="_blank"} in London where I am responsible for cloud strategy and architecture for [real-time payment products](https://b2b.mastercard.com/real-time-payments/){:target="_blank"} as well as building cloud native skills in architecture, engineering and DevOps teams.
+I'm Daniel Vaughan. I help organisations achieve the real benefits of the cloud. If you would like to know more please see my [blog](https://blog.danielvaughan.com){:target="_blank" rel="noopener noreferrer"}<span class="sr-only"> (opens in new window)</span>.
+
+### Books & Recognition
+
+I am the author of two books on Google technologies. One is [Ext GWT 2.0: Beginner's Guide](https://www.amazon.co.uk/Ext-GWT-2-0-Beginners-Guide/dp/1849511845){:target="_blank" rel="noopener noreferrer"}<span class="sr-only"> (opens in new window)</span> from 2010. The other is [Cloud Native Development with Google Cloud](https://cloudnativegcp.com){:target="_blank" rel="noopener noreferrer"}<span class="sr-only"> (opens in new window)</span> published in January 2024. For more information about the latter, please see the [Cloud Native GCP Book](https://cloudnativegcp.com){:target="_blank" rel="noopener noreferrer"}<span class="sr-only"> (opens in new window)</span> website. I am also a [Google Cloud Champion Innovator](https://cloud.google.com/innovators/innovator?profileId=104202580498566413630){:target="_blank" rel="noopener noreferrer"}<span class="sr-only"> (opens in new window)</span>.
+
+## Professional Experience
+
+### Current Role
+
+I currently work as a Director of Software Engineering at [Mastercard](https://www.vocalink.com/){:target="_blank" rel="noopener noreferrer"}<span class="sr-only"> (opens in new window)</span> in London where I am responsible for cloud strategy and architecture for [real-time payment products](https://b2b.mastercard.com/real-time-payments/){:target="_blank" rel="noopener noreferrer"}<span class="sr-only"> (opens in new window)</span> as well as building cloud native skills in architecture, engineering and DevOps teams.
+
+### Previous Experience
 
 Previously I was at HCL Cloud Native Labs, beginning as a Cloud Native Solutions Expert helping organisations move to the cloud. I progressed to lead the IBM Red Hat Ecosystem and then to be the cross-ecosystem Head of Solutions Architecture. This experience gave me a broad exposure to the potential and challenges of cloud offerings with many customers.
 
-The main areas where I have been able to provide value are increasing developer productivity and reducing operations overhead. I also have a strong interest in software sustainability in the cloud and moving towards net-zero, and I am a member of the [Green Software Foundation](https://greensoftware.foundation/){:target="_blank"} and a [Green Software Champion](https://champions.greensoftware.foundation/champions/daniel-vaughan/){:target="_blank"}.
+The main areas where I have been able to provide value are increasing developer productivity and reducing operations overhead. I also have a strong interest in software sustainability in the cloud and moving towards net-zero, and I am a member of the [Green Software Foundation](https://greensoftware.foundation/){:target="_blank" rel="noopener noreferrer"}<span class="sr-only"> (opens in new window)</span> and a [Green Software Champion](https://champions.greensoftware.foundation/champions/daniel-vaughan/){:target="_blank" rel="noopener noreferrer"}<span class="sr-only"> (opens in new window)</span>.
 
-Before HCL, I spent eight years in Bioinformatics at the [European Bioinformatics Institute](https://www.ebi.ac.uk){:target="_blank"} in Cambridge where I started as a Software Engineer, moved into leading engineering teams and developed my cloud skills. At EMBL-EBI, my main interest was software quality and developer productivity.
+Before HCL, I spent eight years in Bioinformatics at the [European Bioinformatics Institute](https://www.ebi.ac.uk){:target="_blank" rel="noopener noreferrer"}<span class="sr-only"> (opens in new window)</span> in Cambridge where I started as a Software Engineer, moved into leading engineering teams and developed my cloud skills. At EMBL-EBI, my main interest was software quality and developer productivity.
 
-I am particularly passionate about community and skills development. I founded the Genome Campus Software Community and EMBL-EBI Technical Seminars Programme to bring people together to share their ideas, expertise and perspectives. I am currently an organiser of the [Software Crafters Cambridge](https://www.meetup.com/cambridge-software-crafters/) and [GDG Cloud Cambridge](https://gdg.community.dev/gdg-cloud-cambridge/) Meetup groups.
+## Community Involvement
+
+I am particularly passionate about community and skills development. I founded the Genome Campus Software Community and EMBL-EBI Technical Seminars Programme to bring people together to share their ideas, expertise and perspectives. I am currently an organiser of the [Software Crafters Cambridge](https://www.meetup.com/cambridge-software-crafters/){:target="_blank" rel="noopener noreferrer"}<span class="sr-only"> (opens in new window)</span> and [GDG Cloud Cambridge](https://gdg.community.dev/gdg-cloud-cambridge/){:target="_blank" rel="noopener noreferrer"}<span class="sr-only"> (opens in new window)</span> Meetup groups.
+
+## Personal
 
 In my personal life, I live in Saffron Walden with my wife Michelle and son Alex.
 
-Please see my profile on [LinkedIn](https://www.linkedin.com/in/danielpvaughan){:target="_blank"} if you know me professionally or would like to know more about my work. If you don’t know me but would like to chat, please [DM me on Twitter](https://twitter.com/messages/compose?recipient_id=20809535){:target="_blank"}.
+## Connect
+
+Please see my profile on [LinkedIn](https://www.linkedin.com/in/danielpvaughan){:target="_blank" rel="noopener noreferrer"}<span class="sr-only"> (opens in new window)</span> if you know me professionally or would like to know more about my work. If you don't know me but would like to chat, please [DM me on Twitter](https://twitter.com/messages/compose?recipient_id=20809535){:target="_blank" rel="noopener noreferrer"}<span class="sr-only"> (opens in new window)</span>.
 
 <br/><br/>
 <!--
