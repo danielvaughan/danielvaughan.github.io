@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body>
+
+    <nav class="profile-nav navbar navbar-expand-lg" role="navigation" aria-label="Main navigation">
+      <div class="container">
+        <a class="navbar-brand" href="/">Daniel Vaughan</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#profileNav"
+                aria-controls="profileNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="profileNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#role">Current Role</a></li>
+            <li class="nav-item"><a class="nav-link" href="#books">Books</a></li>
+            <li class="nav-item"><a class="nav-link" href="#community">Community</a></li>
+            <li class="nav-item"><a class="nav-link" href="#connect">Connect</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      {{ content }}
+    </main>
+
+    {%- include footer.html -%}
+
+  </body>
+
+</html>
