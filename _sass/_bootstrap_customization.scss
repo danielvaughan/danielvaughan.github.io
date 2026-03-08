@@ -327,6 +327,232 @@ legend {
   }
 }
 
+// Profile Nav =================================================================
+
+.profile-nav {
+  background: #0d1b4b;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  padding: 0.4rem 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+
+  .navbar-brand {
+    color: #fff;
+    font-family: $headings-font-family;
+    font-weight: 700;
+    font-size: 1rem;
+
+    &:hover {
+      color: rgba(255, 255, 255, 0.8);
+      text-decoration: none;
+    }
+  }
+
+  .navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.3);
+
+    .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255,255,255,0.8)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
+  }
+
+  .nav-link {
+    color: rgba(255, 255, 255, 0.75);
+    font-family: $headings-font-family;
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding: 0.4rem 0.75rem;
+
+    &:hover {
+      color: #fff;
+    }
+  }
+}
+
+// Hero Section ================================================================
+
+.hero-section {
+  background: linear-gradient(135deg, #0d1b4b 0%, #0869ff 100%);
+  color: #fff;
+  padding: 4rem 0 3.5rem;
+
+  @media (max-width: 767px) {
+    padding: 2.5rem 0 2rem;
+  }
+
+  .hero-eyebrow {
+    font-size: 0.8rem;
+    font-family: $headings-font-family;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.65);
+    margin-bottom: 0.5rem;
+  }
+
+  .hero-name {
+    font-size: 2.75rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 1rem;
+    line-height: 1.1;
+  }
+
+  .hero-bio {
+    font-size: 1.05rem;
+    color: rgba(255, 255, 255, 0.88);
+    line-height: 1.75;
+    margin-bottom: 2rem;
+    max-width: 540px;
+  }
+
+  .hero-photo {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 3px solid rgba(255, 255, 255, 0.35);
+    object-fit: cover;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  }
+}
+
+// Content Section Bands =======================================================
+
+.content-section {
+  padding: 3.5rem 0;
+
+  @media (max-width: 767px) {
+    padding: 2rem 0;
+  }
+
+  &.bg-alt {
+    background-color: #f8f9fa;
+  }
+
+  h2 {
+    font-size: 1.55rem;
+    font-weight: 700;
+    color: $gray-800;
+    margin-bottom: 1.25rem;
+    padding-bottom: 0.6rem;
+    border-bottom: 3px solid #0869ff;
+    display: inline-block;
+  }
+
+  h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #0869ff;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    margin-top: 1.75rem;
+    margin-bottom: 0.5rem;
+
+    a {
+      color: inherit;
+    }
+  }
+
+  p {
+    line-height: 1.75;
+    color: $body-color;
+  }
+}
+
+// Book Cards ==================================================================
+
+.book-card {
+  border: 1px solid #e9ecef;
+  border-left: 4px solid #0869ff;
+  border-radius: 0 0.4rem 0.4rem 0;
+  padding: 1.1rem 1.35rem;
+  background: #fff;
+
+  .book-title {
+    font-family: $headings-font-family;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.2rem;
+
+    a {
+      color: $gray-800;
+
+      &:hover {
+        color: #0869ff;
+        text-decoration: none;
+      }
+    }
+  }
+
+  .book-meta {
+    font-size: 0.82rem;
+    color: $gray-500;
+    margin-bottom: 0.5rem;
+  }
+
+  p {
+    font-size: 0.95rem;
+    color: $gray-700;
+    margin-bottom: 0;
+  }
+}
+
+// Connect Buttons =============================================================
+
+.connect-btn {
+  display: inline-flex;
+  align-items: center;
+  margin: 0.25rem 0.4rem 0.25rem 0;
+  padding: 0.55rem 1.4rem;
+  border-radius: 2rem;
+  font-family: $headings-font-family;
+  font-size: 0.88rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  cursor: pointer;
+
+  &.connect-linkedin {
+    background: #0077b5;
+    color: #fff;
+    border: 2px solid #0077b5;
+
+    &:hover {
+      background: #005885;
+      border-color: #005885;
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+
+  &.connect-blog {
+    background: transparent;
+    color: #fff;
+    border: 2px solid rgba(255, 255, 255, 0.6);
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.15);
+      border-color: #fff;
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+}
+
+// In non-hero context (Connect section), override blog button colours
+.content-section .connect-btn.connect-blog {
+  color: #0869ff;
+  border-color: #0869ff;
+  background: transparent;
+
+  &:hover {
+    background: #0869ff;
+    color: #fff;
+  }
+}
+
 // Custom Profile Styles =======================================================
 
 .profile-image {
