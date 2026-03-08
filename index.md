@@ -1,14 +1,14 @@
 ---
 layout: profile
 title: Daniel Vaughan
-description: Technology leader and software architect specialising in Agentic AI and cloud strategy, based in London, UK
+description: Technology leader and software architect specialising in Agentic AI, based in London, UK
 ---
 
 <section class="hero-section">
   <div class="container">
     <div class="row align-items-center">
       <div class="col-md-8 order-2 order-md-1">
-        <p class="hero-eyebrow">Technology Leader · Agentic AI · Cloud Strategy</p>
+        <p class="hero-eyebrow">Technology Leader · Agentic AI · Software Engineering</p>
         <h1 class="hero-name">Daniel Vaughan</h1>
         <p class="hero-bio">I help organisations understand and navigate the future of work, specifically how Agentic AI is transforming software engineering.</p>
         <div class="hero-actions">
@@ -26,7 +26,7 @@ description: Technology leader and software architect specialising in Agentic AI
 <section class="content-section bg-white" id="about">
   <div class="container">
     <h2>About me</h2>
-    <p>With 25 years of experience across enterprise, startup and academic settings, I now focus on the most significant technological shift of my career: the transition to AI-native architectures. I am a technology leader and software architect specialising in generative AI and cloud strategy, building scalable systems where human engineers and autonomous agents work together.</p>
+    <p>With 25 years of experience across enterprise, startup and academic settings, I now focus on the most significant technological shift of my career: the transition to AI-native architectures. I am a technology leader and software architect specialising in generative AI, building scalable systems where human engineers and autonomous agents work together.</p>
     <p>I thrive on building the culture and environments this new era of engineering demands. My approach is entrepreneurial and customer-focused, with a strong bias for action. Whether advising leaders on AI adoption or working hands-on with Agentic workflows, my goal is to turn AI hype into tangible, proven results.</p>
   </div>
 </section>
