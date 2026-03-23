@@ -2,444 +2,580 @@ title: "A Walk Around Salisbury"
 date: "October 2002"
 
 route:
-  # Placeholder coordinates — to be refined in Phase 2 with user
   coordinates:
-    - [51.0740, -1.7950]
-    - [51.0730, -1.7940]
+    - [51.0738, -1.7918]
+    - [51.0735, -1.7920]
+    - [51.0730, -1.7925]
+    - [51.0725, -1.7930]
     - [51.0720, -1.7935]
-    - [51.0710, -1.7930]
-    - [51.0700, -1.7925]
-    - [51.0690, -1.7920]
+    - [51.0715, -1.7940]
+    - [51.0710, -1.7945]
+    - [51.0705, -1.7945]
+    - [51.0700, -1.7945]
+    - [51.0695, -1.7945]
+    - [51.0690, -1.7945]
+    - [51.0685, -1.7940]
+    - [51.0678, -1.7945]
+    - [51.0670, -1.7960]
+    - [51.0662, -1.7975]
+    - [51.0670, -1.7960]
+    - [51.0678, -1.7945]
+    - [51.0690, -1.7945]
+    - [51.0700, -1.7945]
+    - [51.0708, -1.7955]
+    - [51.0712, -1.7958]
+    - [51.0715, -1.7955]
+    - [51.0718, -1.7958]
+    - [51.0720, -1.7960]
+    - [51.0718, -1.7955]
+    - [51.0715, -1.7950]
+    - [51.0712, -1.7940]
+    - [51.0715, -1.7925]
+    - [51.0718, -1.7910]
+    - [51.0722, -1.7900]
+    - [51.0728, -1.7910]
+    - [51.0733, -1.7918]
+    - [51.0738, -1.7918]
 
 photos:
   - id: "PA180001"
-    location: ""
+    location: "B&B"
     orientation: "portrait"
-    alt: "Photo 1 of walk around Salisbury"
+    alt: "Front door of the B&B, starting point of the walk"
     comparison: false
 
   - id: "PA180002"
-    location: ""
+    location: "B&B"
     orientation: "portrait"
-    alt: "Photo 2 of walk around Salisbury"
+    alt: "Interior hallway of the B&B"
     comparison: false
 
   - id: "PA180003"
-    location: ""
+    location: "B&B"
     orientation: "portrait"
-    alt: "Photo 3 of walk around Salisbury"
+    alt: "B&B corridor"
     comparison: false
 
   - id: "PA180004"
-    location: ""
+    location: "B&B"
     orientation: "portrait"
-    alt: "Photo 4 of walk around Salisbury"
+    alt: "B&B stairwell"
     comparison: false
 
   - id: "PA180005"
-    location: ""
+    location: "B&B"
     orientation: "portrait"
-    alt: "Photo 5 of walk around Salisbury"
+    alt: "View from B&B window"
     comparison: false
 
   - id: "PA180006"
-    location: ""
+    location: "B&B"
     orientation: "portrait"
-    alt: "Photo 6 of walk around Salisbury"
+    alt: "B&B entrance area"
     comparison: false
 
   - id: "PA180007"
-    location: ""
+    location: "Near Gigant Street"
     orientation: "landscape"
-    alt: "Photo 7 of walk around Salisbury"
+    alt: "Alleyway with iron gate looking out at red-brick flats"
     comparison: false
 
   - id: "PA180008"
-    location: ""
+    location: "Gigant Street"
     orientation: "landscape"
-    alt: "Photo 8 of walk around Salisbury"
+    alt: "Red-brick townhouses with green car parked outside on Gigant Street"
     comparison: false
 
   - id: "PA180009"
-    location: ""
+    location: "Gigant Street"
     orientation: "landscape"
-    alt: "Photo 9 of walk around Salisbury"
-    comparison: false
+    alt: "Gigant Street looking south, new-build brick houses both sides"
+    comparison: true
+    streetview:
+      lat: 51.0733
+      lng: -1.7922
+      heading: 180
+      pitch: 0
 
   - id: "PA180010"
-    location: ""
+    location: "Gigant Street"
     orientation: "landscape"
-    alt: "Photo 10 of walk around Salisbury"
-    comparison: false
+    alt: "Row of terraced houses with dormers on Gigant Street"
+    comparison: true
+    streetview:
+      lat: 51.0730
+      lng: -1.7925
+      heading: 200
+      pitch: 0
 
   - id: "PA180011"
-    location: ""
+    location: "Brown Street"
     orientation: "landscape"
-    alt: "Photo 11 of walk around Salisbury"
+    alt: "Brick-paved lane between houses on Brown Street"
     comparison: false
 
   - id: "PA180012"
-    location: ""
+    location: "Salt Lane"
     orientation: "landscape"
-    alt: "Photo 12 of walk around Salisbury"
+    alt: "Car park area near Salt Lane"
     comparison: false
 
   - id: "PA180013"
-    location: ""
+    location: "Salt Lane Car Park"
     orientation: "landscape"
-    alt: "Photo 13 of walk around Salisbury"
+    alt: "Salt Lane car park with pay machine and traffic lights"
     comparison: false
 
   - id: "PA180014"
-    location: ""
+    location: "Brown Street"
     orientation: "landscape"
-    alt: "Photo 14 of walk around Salisbury"
+    alt: "Brown Street looking south with car park on left"
     comparison: false
 
   - id: "PA180015"
-    location: ""
+    location: "Salt Lane Car Park"
     orientation: "landscape"
-    alt: "Photo 15 of walk around Salisbury"
+    alt: "Tree-lined section of Salt Lane car park"
     comparison: false
 
   - id: "PA180016"
-    location: ""
+    location: "Near Old George Mall"
     orientation: "landscape"
-    alt: "Photo 16 of walk around Salisbury"
+    alt: "Back of shops near Old George Mall"
     comparison: false
 
   - id: "PA180017"
-    location: ""
+    location: "Passage to Old George Mall"
     orientation: "landscape"
-    alt: "Photo 17 of walk around Salisbury"
-    comparison: false
+    alt: "Narrow passage with timber-framed building leading into Old George Mall"
+    comparison: true
+    streetview:
+      lat: 51.0712
+      lng: -1.7948
+      heading: 210
+      pitch: 0
 
   - id: "PA180018"
-    location: ""
+    location: "Old George Mall, New Street"
     orientation: "landscape"
-    alt: "Photo 18 of walk around Salisbury"
-    comparison: false
+    alt: "Old George Mall entrance on New Street with Tourist Information sign"
+    comparison: true
+    streetview:
+      lat: 51.0710
+      lng: -1.7945
+      heading: 190
+      pitch: 0
 
   - id: "PA180019"
-    location: ""
+    location: "Old George Mall"
     orientation: "landscape"
-    alt: "Photo 19 of walk around Salisbury"
+    alt: "Inside Old George Mall shopping centre"
     comparison: false
 
   - id: "PA180020"
-    location: ""
+    location: "Old George Mall"
     orientation: "landscape"
-    alt: "Photo 20 of walk around Salisbury"
+    alt: "Walking through Old George Mall towards New Canal"
     comparison: false
 
   - id: "PA180021"
-    location: ""
+    location: "New Canal"
     orientation: "landscape"
-    alt: "Photo 21 of walk around Salisbury"
-    comparison: false
+    alt: "BHS store on New Canal"
+    comparison: true
+    streetview:
+      lat: 51.0707
+      lng: -1.7942
+      heading: 270
+      pitch: 0
 
   - id: "PA180022"
-    location: ""
+    location: "Old George Mall"
     orientation: "landscape"
-    alt: "Photo 22 of walk around Salisbury"
+    alt: "Old George Mall interior looking south"
     comparison: false
 
   - id: "PA180023"
-    location: ""
+    location: "Old George Mall"
     orientation: "landscape"
-    alt: "Photo 23 of walk around Salisbury"
+    alt: "Old George Mall with banner lampposts and shoppers"
     comparison: false
 
   - id: "PA180024"
-    location: ""
+    location: "Old George Mall"
     orientation: "landscape"
-    alt: "Photo 24 of walk around Salisbury"
+    alt: "Old George Mall exit area"
     comparison: false
 
   - id: "PA180025"
-    location: ""
+    location: "High Street"
     orientation: "landscape"
-    alt: "Photo 25 of walk around Salisbury"
-    comparison: false
+    alt: "High Street looking south with timber-framed buildings and Littlewoods Index"
+    comparison: true
+    streetview:
+      lat: 51.0700
+      lng: -1.7945
+      heading: 190
+      pitch: 0
 
   - id: "PA180026"
-    location: ""
+    location: "High Street"
     orientation: "landscape"
-    alt: "Photo 26 of walk around Salisbury"
-    comparison: false
+    alt: "High Street looking south towards the medieval North Gate arch"
+    comparison: true
+    streetview:
+      lat: 51.0695
+      lng: -1.7945
+      heading: 190
+      pitch: 0
 
   - id: "PA180027"
-    location: ""
+    location: "High Street Gate"
     orientation: "landscape"
-    alt: "Photo 27 of walk around Salisbury"
-    comparison: false
+    alt: "Close-up of the medieval High Street Gate with coat of arms"
+    comparison: true
+    streetview:
+      lat: 51.0691
+      lng: -1.7945
+      heading: 190
+      pitch: 10
 
   - id: "PA180028"
-    location: ""
+    location: "St Ann Street"
     orientation: "landscape"
-    alt: "Photo 28 of walk around Salisbury"
+    alt: "Narrow lane south of High Street Gate with Cathedral spire in distance"
     comparison: false
 
   - id: "PA180029"
-    location: ""
+    location: "The Close"
     orientation: "landscape"
-    alt: "Photo 29 of walk around Salisbury"
+    alt: "Approaching The Close from the north"
     comparison: false
 
   - id: "PA180030"
-    location: ""
+    location: "The Close"
     orientation: "landscape"
-    alt: "Photo 30 of walk around Salisbury"
-    comparison: false
+    alt: "Entrance to The Close by the Medieval Hall with Cathedral visible through trees"
+    comparison: true
+    streetview:
+      lat: 51.0678
+      lng: -1.7950
+      heading: 220
+      pitch: 0
 
   - id: "PA180031"
-    location: ""
+    location: "Salisbury Cathedral"
     orientation: "landscape"
-    alt: "Photo 31 of walk around Salisbury"
-    comparison: false
+    alt: "Salisbury Cathedral north side with viewing telescope"
+    comparison: true
+    streetview:
+      lat: 51.0667
+      lng: -1.7970
+      heading: 220
+      pitch: 10
 
   - id: "PA180032"
-    location: ""
+    location: "Salisbury Cathedral"
     orientation: "landscape"
-    alt: "Photo 32 of walk around Salisbury"
-    comparison: false
+    alt: "Cathedral west front with scaffolding during restoration"
+    comparison: true
+    streetview:
+      lat: 51.0662
+      lng: -1.7980
+      heading: 180
+      pitch: 15
 
   - id: "PA180033"
-    location: ""
+    location: "Salisbury Cathedral"
     orientation: "portrait"
-    alt: "Photo 33 of walk around Salisbury"
-    comparison: false
+    alt: "Close-up of Cathedral west front statues and Gothic arches"
+    comparison: true
+    streetview:
+      lat: 51.0660
+      lng: -1.7978
+      heading: 100
+      pitch: 30
 
   - id: "PA180034"
-    location: ""
+    location: "The Close"
     orientation: "landscape"
-    alt: "Photo 34 of walk around Salisbury"
+    alt: "Walking east through The Close with autumn trees"
     comparison: false
 
   - id: "PA180035"
-    location: ""
+    location: "The Close"
     orientation: "landscape"
-    alt: "Photo 35 of walk around Salisbury"
+    alt: "The Close looking back towards Choristers Green"
     comparison: false
 
   - id: "PA180036"
-    location: ""
+    location: "High Street Gate"
     orientation: "landscape"
-    alt: "Photo 36 of walk around Salisbury"
-    comparison: false
+    alt: "High Street Gate from the Cathedral Close side looking north into town"
+    comparison: true
+    streetview:
+      lat: 51.0688
+      lng: -1.7943
+      heading: 10
+      pitch: 5
 
   - id: "PA180037"
-    location: ""
+    location: "High Street"
     orientation: "landscape"
-    alt: "Photo 37 of walk around Salisbury"
-    comparison: false
+    alt: "High Street looking north with Prezzo and Bernstein's Cookshop"
+    comparison: true
+    streetview:
+      lat: 51.0695
+      lng: -1.7945
+      heading: 10
+      pitch: 0
 
   - id: "PA180038"
-    location: ""
+    location: "High Street"
     orientation: "landscape"
-    alt: "Photo 38 of walk around Salisbury"
+    alt: "High Street looking north with St Thomas's church tower visible"
     comparison: false
 
   - id: "PA180039"
-    location: ""
+    location: "Silver Street"
     orientation: "landscape"
-    alt: "Photo 39 of walk around Salisbury"
-    comparison: false
+    alt: "Silver Street junction with church tower, Burger King and traffic"
+    comparison: true
+    streetview:
+      lat: 51.0708
+      lng: -1.7955
+      heading: 340
+      pitch: 0
 
   - id: "PA180040"
-    location: ""
+    location: "St Thomas's Square"
     orientation: "landscape"
-    alt: "Photo 40 of walk around Salisbury"
+    alt: "St Thomas's Church with Next store and cafe"
     comparison: false
 
   - id: "PA180041"
-    location: ""
+    location: "St Thomas's Square"
     orientation: "landscape"
-    alt: "Photo 41 of walk around Salisbury"
+    alt: "Near St Thomas's Church with Millstream Coach sign and striped awning"
     comparison: false
 
   - id: "PA180042"
-    location: ""
+    location: "Minster Street"
     orientation: "landscape"
-    alt: "Photo 42 of walk around Salisbury"
+    alt: "Passing behind St Thomas's Church with hedge and Knapman and Bament estate agents"
     comparison: false
 
   - id: "PA180043"
-    location: ""
+    location: "Minster Street"
     orientation: "landscape"
-    alt: "Photo 43 of walk around Salisbury"
+    alt: "Knapman and Bament building on Minster Street with church behind"
     comparison: false
 
   - id: "PA180044"
-    location: ""
+    location: "Minster Street"
     orientation: "landscape"
-    alt: "Photo 44 of walk around Salisbury"
+    alt: "Minster Street towards Market Place with Neal's Yard sign and red bus"
     comparison: false
 
   - id: "PA180045"
-    location: ""
+    location: "Market Place"
     orientation: "landscape"
-    alt: "Photo 45 of walk around Salisbury"
-    comparison: false
+    alt: "Market Place with grand Victorian buildings and ornate lamp post"
+    comparison: true
+    streetview:
+      lat: 51.0718
+      lng: -1.7958
+      heading: 300
+      pitch: 0
 
   - id: "PA180046"
-    location: ""
+    location: "Market Place"
     orientation: "landscape"
-    alt: "Photo 46 of walk around Salisbury"
-    comparison: false
+    alt: "Market Place crossing looking east"
+    comparison: true
+    streetview:
+      lat: 51.0718
+      lng: -1.7960
+      heading: 90
+      pitch: 0
 
   - id: "PA180047"
-    location: ""
+    location: "Market Square"
     orientation: "landscape"
-    alt: "Photo 47 of walk around Salisbury"
-    comparison: false
+    alt: "Market Square with stalls, St George's flag and Sportsman shop"
+    comparison: true
+    streetview:
+      lat: 51.0720
+      lng: -1.7962
+      heading: 310
+      pitch: 0
 
   - id: "PA180048"
-    location: ""
+    location: "Market Square"
     orientation: "landscape"
-    alt: "Photo 48 of walk around Salisbury"
+    alt: "Market Square with Market Inn pub sign and pork pie stall"
     comparison: false
 
   - id: "PA180049"
-    location: ""
+    location: "Market Square"
     orientation: "landscape"
-    alt: "Photo 49 of walk around Salisbury"
+    alt: "Crowded fruit stall at Salisbury market"
     comparison: false
 
   - id: "PA180050"
-    location: ""
+    location: "Market Square"
     orientation: "landscape"
-    alt: "Photo 50 of walk around Salisbury"
+    alt: "Busy market scene with striped stall canopies"
     comparison: false
 
   - id: "PA180051"
-    location: ""
+    location: "Market Square"
     orientation: "landscape"
-    alt: "Photo 51 of walk around Salisbury"
+    alt: "Gilbert's Butchers van and Ox Row buildings at the market"
     comparison: false
 
   - id: "PA180052"
-    location: ""
+    location: "Market Square"
     orientation: "landscape"
-    alt: "Photo 52 of walk around Salisbury"
-    comparison: false
+    alt: "Market Square with Salisbury Farmers Market banner, Guildhall and Ox Row pub"
+    comparison: true
+    streetview:
+      lat: 51.0720
+      lng: -1.7965
+      heading: 300
+      pitch: 0
 
   - id: "PA180053"
-    location: ""
+    location: "Near Guildhall"
     orientation: "landscape"
-    alt: "Photo 53 of walk around Salisbury"
+    alt: "Guildhall and Reeve the Baker near Market Square"
     comparison: false
 
   - id: "PA180054"
-    location: ""
+    location: "Near Guildhall"
     orientation: "landscape"
-    alt: "Photo 54 of walk around Salisbury"
+    alt: "Reeve the Baker Coffee Shop and Tea Rooms with narrow passage"
     comparison: false
 
   - id: "PA180055"
-    location: ""
+    location: "Butcher Row"
     orientation: "landscape"
-    alt: "Photo 55 of walk around Salisbury"
-    comparison: false
+    alt: "Butcher Row with timber-framed buildings, Rowland's shop and Union Jack"
+    comparison: true
+    streetview:
+      lat: 51.0715
+      lng: -1.7950
+      heading: 200
+      pitch: 0
 
   - id: "PA180056"
-    location: ""
+    location: "Queen Street"
     orientation: "landscape"
-    alt: "Photo 56 of walk around Salisbury"
-    comparison: false
+    alt: "Queen Street junction with timber-framed Repertoire shop and Moss"
+    comparison: true
+    streetview:
+      lat: 51.0712
+      lng: -1.7942
+      heading: 200
+      pitch: 0
 
   - id: "PA180057"
-    location: ""
+    location: "Blue Boar Row"
     orientation: "landscape"
-    alt: "Photo 57 of walk around Salisbury"
+    alt: "Blue Boar Row junction with Specsavers on the corner"
     comparison: false
 
   - id: "PA180058"
-    location: ""
+    location: "Milford Street"
     orientation: "landscape"
-    alt: "Photo 58 of walk around Salisbury"
-    comparison: false
+    alt: "Milford Street with The Red Lion coaching inn"
+    comparison: true
+    streetview:
+      lat: 51.0715
+      lng: -1.7920
+      heading: 90
+      pitch: 0
 
   - id: "PA180059"
-    location: ""
+    location: "Milford Street"
     orientation: "landscape"
-    alt: "Photo 59 of walk around Salisbury"
+    alt: "Milford Street looking east with parked cars and railway bridge in distance"
     comparison: false
 
   - id: "PA180060"
-    location: ""
+    location: "Milford Street"
     orientation: "landscape"
-    alt: "Photo 60 of walk around Salisbury"
+    alt: "Milford Street with ornate Victorian building and The Vestry sign"
     comparison: false
 
   - id: "PA180061"
-    location: ""
+    location: "Milford Street"
     orientation: "landscape"
-    alt: "Photo 61 of walk around Salisbury"
+    alt: "Milford Street and Endless Street junction"
     comparison: false
 
   - id: "PA180062"
-    location: ""
+    location: "Rollestone Street"
     orientation: "landscape"
-    alt: "Photo 62 of walk around Salisbury"
+    alt: "Rollestone Street with Financial Services and Printing Centre signs"
     comparison: false
 
   - id: "PA180063"
-    location: ""
+    location: "Rollestone Street"
     orientation: "landscape"
-    alt: "Photo 63 of walk around Salisbury"
+    alt: "Rollestone Street looking north with brick archway"
     comparison: false
 
   - id: "PA180064"
-    location: ""
+    location: "Near Gigant Street"
     orientation: "landscape"
-    alt: "Photo 64 of walk around Salisbury"
+    alt: "Side street near Gigant Street with new-build brick and bollards"
     comparison: false
 
   - id: "PA180065"
-    location: ""
+    location: "Near B&B"
     orientation: "landscape"
-    alt: "Photo 65 of walk around Salisbury"
+    alt: "Gated car park behind the B&B"
     comparison: false
 
   - id: "PA180066"
-    location: ""
+    location: "Near B&B"
     orientation: "landscape"
-    alt: "Photo 66 of walk around Salisbury"
+    alt: "Car park area approaching B&B from the rear"
     comparison: false
 
   - id: "PA180067"
-    location: ""
+    location: "Near B&B"
     orientation: "landscape"
-    alt: "Photo 67 of walk around Salisbury"
+    alt: "Alley path back to the B&B"
     comparison: false
 
   - id: "PA180068"
-    location: ""
+    location: "B&B"
     orientation: "landscape"
-    alt: "Photo 68 of walk around Salisbury"
+    alt: "B&B entrance door with Apartments 17-21 plaque and intercom"
     comparison: false
 
   - id: "PA180069"
-    location: ""
+    location: "B&B"
     orientation: "landscape"
-    alt: "Photo 69 of walk around Salisbury"
+    alt: "B&B interior stairwell"
     comparison: false
 
   - id: "PA180070"
-    location: ""
+    location: "B&B"
     orientation: "landscape"
-    alt: "Photo 70 of walk around Salisbury"
+    alt: "B&B hallway with door to room 17 visible through glass"
     comparison: false
 
   - id: "PA180071"
-    location: ""
+    location: "B&B"
     orientation: "landscape"
-    alt: "Photo 71 of walk around Salisbury"
+    alt: "B&B glass door to room corridor"
     comparison: false
 
   - id: "PA180074"
-    location: ""
+    location: "B&B"
     orientation: "landscape"
-    alt: "Photo 72 of walk around Salisbury"
+    alt: "Door of room 17, end of the walk"
     comparison: false
