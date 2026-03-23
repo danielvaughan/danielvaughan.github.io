@@ -1,0 +1,445 @@
+title: "A Walk Around Salisbury"
+date: "October 2002"
+
+route:
+  # Placeholder coordinates — to be refined in Phase 2 with user
+  coordinates:
+    - [51.0740, -1.7950]
+    - [51.0730, -1.7940]
+    - [51.0720, -1.7935]
+    - [51.0710, -1.7930]
+    - [51.0700, -1.7925]
+    - [51.0690, -1.7920]
+
+photos:
+  - id: "PA180001"
+    location: ""
+    orientation: "portrait"
+    alt: "Photo 1 of walk around Salisbury"
+    comparison: false
+
+  - id: "PA180002"
+    location: ""
+    orientation: "portrait"
+    alt: "Photo 2 of walk around Salisbury"
+    comparison: false
+
+  - id: "PA180003"
+    location: ""
+    orientation: "portrait"
+    alt: "Photo 3 of walk around Salisbury"
+    comparison: false
+
+  - id: "PA180004"
+    location: ""
+    orientation: "portrait"
+    alt: "Photo 4 of walk around Salisbury"
+    comparison: false
+
+  - id: "PA180005"
+    location: ""
+    orientation: "portrait"
+    alt: "Photo 5 of walk around Salisbury"
+    comparison: false
+
+  - id: "PA180006"
+    location: ""
+    orientation: "portrait"
+    alt: "Photo 6 of walk around Salisbury"
+    comparison: false
+
+  - id: "PA180007"
+    location: ""
+    orientation: "landscape"
+    alt: "Photo 7 of walk around Salisbury"
+    comparison: false
+
+  - id: "PA180008"
+    location: ""
+    orientation: "landscape"
+    alt: "Photo 8 of walk around Salisbury"
+    comparison: false
+
+  - id: "PA180009"
+    location: ""
+    orientation: "landscape"
+    alt: "Photo 9 of walk around Salisbury"
+    comparison: false
+
+  - id: "PA180010"
+    location: ""
+    orientation: "landscape"
+    alt: "Photo 10 of walk around Salisbury"
+    comparison: false
+
+  - id: "PA180011"
+    location: ""
+    orientation: "landscape"
+    alt: "Photo 11 of walk around Salisbury"
+    comparison: false
+
+  - id: "PA180012"
+    location: ""
+    orientation: "landscape"
+    alt: "Photo 12 of walk around Salisbury"
+    comparison: false
+
+  - id: "PA180013"
+    location: ""
+    orientation: "landscape"
+    alt: "Photo 13 of walk around Salisbury"
+    comparison: false
+
+  - id: "PA180014"
+    location: ""
+    orientation: "landscape"
+    alt: "Photo 14 of walk around Salisbury"
+    comparison: false
+
+  - id: "PA180015"
+    location: ""
+    orientation: "landscape"
+    alt: "Photo 15 of walk around Salisbury"
+    comparison: false
+
+  - id: "PA180016"
+    location: ""
+    orientation: "landscape"
+    alt: "Photo 16 of walk around Salisbury"
+    comparison: false
+
+  - id: "PA180017"
+    location: ""
+    orientation: "landscape"
+    alt: "Photo 17 of walk around Salisbury"
+    comparison: false
+
+  - id: "PA180018"
+    location: ""
+    orientation: "landscape"
+    alt: "Photo 18 of walk around Salisbury"
+    comparison: false
+
+  - id: "PA180019"
+    location: ""
+    orientation: "landscape"
+    alt: "Photo 19 of walk around Salisbury"
+    comparison: false
+
+  - id: "PA180020"
+    location: ""
+    orientation: "landscape"
+    alt: "Photo 20 of walk around Salisbury"
+    comparison: false
+
+  - id: "PA180021"
+    location: ""
+    orientation: "landscape"
+    alt: "Photo 21 of walk around Salisbury"
+    comparison: false
+
+  - id: "PA180022"
+    location: ""
+    orientation: "landscape"
+    alt: "Photo 22 of walk around Salisbury"
+    comparison: false
+
+  - id: "PA180023"
+    location: ""
+    orientation: "landscape"
+    alt: "Photo 23 of walk around Salisbury"
+    comparison: false
+
+  - id: "PA180024"
+    location: ""
+    orientation: "landscape"
+    alt: "Photo 24 of walk around Salisbury"
+    comparison: false
+
+  - id: "PA180025"
+    location: ""
+    orientation: "landscape"
+    alt: "Photo 25 of walk around Salisbury"
+    comparison: false
+
+  - id: "PA180026"
+    location: ""
+    orientation: "landscape"
+    alt: "Photo 26 of walk around Salisbury"
+    comparison: false
+
+  - id: "PA180027"
+    location: ""
+    orientation: "landscape"
+    alt: "Photo 27 of walk around Salisbury"
+    comparison: false
+
+  - id: "PA180028"
+    location: ""
+    orientation: "landscape"
+    alt: "Photo 28 of walk around Salisbury"
+    comparison: false
+
+  - id: "PA180029"
+    location: ""
+    orientation: "landscape"
+    alt: "Photo 29 of walk around Salisbury"
+    comparison: false
+
+  - id: "PA180030"
+    location: ""
+    orientation: "landscape"
+    alt: "Photo 30 of walk around Salisbury"
+    comparison: false
+
+  - id: "PA180031"
+    location: ""
+    orientation: "landscape"
+    alt: "Photo 31 of walk around Salisbury"
+    comparison: false
+
+  - id: "PA180032"
+    location: ""
+    orientation: "landscape"
+    alt: "Photo 32 of walk around Salisbury"
+    comparison: false
+
+  - id: "PA180033"
+    location: ""
+    orientation: "portrait"
+    alt: "Photo 33 of walk around Salisbury"
+    comparison: false
+
+  - id: "PA180034"
+    location: ""
+    orientation: "landscape"
+    alt: "Photo 34 of walk around Salisbury"
+    comparison: false
+
+  - id: "PA180035"
+    location: ""
+    orientation: "landscape"
+    alt: "Photo 35 of walk around Salisbury"
+    comparison: false
+
+  - id: "PA180036"
+    location: ""
+    orientation: "landscape"
+    alt: "Photo 36 of walk around Salisbury"
+    comparison: false
+
+  - id: "PA180037"
+    location: ""
+    orientation: "landscape"
+    alt: "Photo 37 of walk around Salisbury"
+    comparison: false
+
+  - id: "PA180038"
+    location: ""
+    orientation: "landscape"
+    alt: "Photo 38 of walk around Salisbury"
+    comparison: false
+
+  - id: "PA180039"
+    location: ""
+    orientation: "landscape"
+    alt: "Photo 39 of walk around Salisbury"
+    comparison: false
+
+  - id: "PA180040"
+    location: ""
+    orientation: "landscape"
+    alt: "Photo 40 of walk around Salisbury"
+    comparison: false
+
+  - id: "PA180041"
+    location: ""
+    orientation: "landscape"
+    alt: "Photo 41 of walk around Salisbury"
+    comparison: false
+
+  - id: "PA180042"
+    location: ""
+    orientation: "landscape"
+    alt: "Photo 42 of walk around Salisbury"
+    comparison: false
+
+  - id: "PA180043"
+    location: ""
+    orientation: "landscape"
+    alt: "Photo 43 of walk around Salisbury"
+    comparison: false
+
+  - id: "PA180044"
+    location: ""
+    orientation: "landscape"
+    alt: "Photo 44 of walk around Salisbury"
+    comparison: false
+
+  - id: "PA180045"
+    location: ""
+    orientation: "landscape"
+    alt: "Photo 45 of walk around Salisbury"
+    comparison: false
+
+  - id: "PA180046"
+    location: ""
+    orientation: "landscape"
+    alt: "Photo 46 of walk around Salisbury"
+    comparison: false
+
+  - id: "PA180047"
+    location: ""
+    orientation: "landscape"
+    alt: "Photo 47 of walk around Salisbury"
+    comparison: false
+
+  - id: "PA180048"
+    location: ""
+    orientation: "landscape"
+    alt: "Photo 48 of walk around Salisbury"
+    comparison: false
+
+  - id: "PA180049"
+    location: ""
+    orientation: "landscape"
+    alt: "Photo 49 of walk around Salisbury"
+    comparison: false
+
+  - id: "PA180050"
+    location: ""
+    orientation: "landscape"
+    alt: "Photo 50 of walk around Salisbury"
+    comparison: false
+
+  - id: "PA180051"
+    location: ""
+    orientation: "landscape"
+    alt: "Photo 51 of walk around Salisbury"
+    comparison: false
+
+  - id: "PA180052"
+    location: ""
+    orientation: "landscape"
+    alt: "Photo 52 of walk around Salisbury"
+    comparison: false
+
+  - id: "PA180053"
+    location: ""
+    orientation: "landscape"
+    alt: "Photo 53 of walk around Salisbury"
+    comparison: false
+
+  - id: "PA180054"
+    location: ""
+    orientation: "landscape"
+    alt: "Photo 54 of walk around Salisbury"
+    comparison: false
+
+  - id: "PA180055"
+    location: ""
+    orientation: "landscape"
+    alt: "Photo 55 of walk around Salisbury"
+    comparison: false
+
+  - id: "PA180056"
+    location: ""
+    orientation: "landscape"
+    alt: "Photo 56 of walk around Salisbury"
+    comparison: false
+
+  - id: "PA180057"
+    location: ""
+    orientation: "landscape"
+    alt: "Photo 57 of walk around Salisbury"
+    comparison: false
+
+  - id: "PA180058"
+    location: ""
+    orientation: "landscape"
+    alt: "Photo 58 of walk around Salisbury"
+    comparison: false
+
+  - id: "PA180059"
+    location: ""
+    orientation: "landscape"
+    alt: "Photo 59 of walk around Salisbury"
+    comparison: false
+
+  - id: "PA180060"
+    location: ""
+    orientation: "landscape"
+    alt: "Photo 60 of walk around Salisbury"
+    comparison: false
+
+  - id: "PA180061"
+    location: ""
+    orientation: "landscape"
+    alt: "Photo 61 of walk around Salisbury"
+    comparison: false
+
+  - id: "PA180062"
+    location: ""
+    orientation: "landscape"
+    alt: "Photo 62 of walk around Salisbury"
+    comparison: false
+
+  - id: "PA180063"
+    location: ""
+    orientation: "landscape"
+    alt: "Photo 63 of walk around Salisbury"
+    comparison: false
+
+  - id: "PA180064"
+    location: ""
+    orientation: "landscape"
+    alt: "Photo 64 of walk around Salisbury"
+    comparison: false
+
+  - id: "PA180065"
+    location: ""
+    orientation: "landscape"
+    alt: "Photo 65 of walk around Salisbury"
+    comparison: false
+
+  - id: "PA180066"
+    location: ""
+    orientation: "landscape"
+    alt: "Photo 66 of walk around Salisbury"
+    comparison: false
+
+  - id: "PA180067"
+    location: ""
+    orientation: "landscape"
+    alt: "Photo 67 of walk around Salisbury"
+    comparison: false
+
+  - id: "PA180068"
+    location: ""
+    orientation: "landscape"
+    alt: "Photo 68 of walk around Salisbury"
+    comparison: false
+
+  - id: "PA180069"
+    location: ""
+    orientation: "landscape"
+    alt: "Photo 69 of walk around Salisbury"
+    comparison: false
+
+  - id: "PA180070"
+    location: ""
+    orientation: "landscape"
+    alt: "Photo 70 of walk around Salisbury"
+    comparison: false
+
+  - id: "PA180071"
+    location: ""
+    orientation: "landscape"
+    alt: "Photo 71 of walk around Salisbury"
+    comparison: false
+
+  - id: "PA180074"
+    location: ""
+    orientation: "landscape"
+    alt: "Photo 72 of walk around Salisbury"
+    comparison: false
