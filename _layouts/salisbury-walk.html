@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+  {% if page.extra_css %}{% for css in page.extra_css %}<link rel="stylesheet" href="{{ css }}">{% endfor %}{% endif %}
+
+  <body>
+
+    <main>
+      {{ content }}
+    </main>
+
+    {%- include footer.html -%}
+
+  </body>
+
+</html>
