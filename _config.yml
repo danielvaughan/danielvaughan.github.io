@@ -21,4 +21,4 @@ exclude:
   - index.old.html
   - .playwright-mcp/
   - docs/
-google_maps_api_key: ""
+google_maps_api_key: "AIzaSyB8cmi7toSGiJ_sP--qji1VnkG9T8cLt24"
