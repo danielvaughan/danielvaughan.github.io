@@ -2,40 +2,60 @@ title: "A Walk Around Salisbury"
 date: "October 2002"
 
 route:
+  # Verified coordinates from postcodes/landmarks
   coordinates:
-    - [51.0738, -1.7918]
-    - [51.0735, -1.7920]
-    - [51.0730, -1.7925]
-    - [51.0725, -1.7930]
-    - [51.0720, -1.7935]
-    - [51.0715, -1.7940]
-    - [51.0710, -1.7945]
-    - [51.0705, -1.7945]
-    - [51.0700, -1.7945]
-    - [51.0695, -1.7945]
-    - [51.0690, -1.7945]
-    - [51.0685, -1.7940]
-    - [51.0678, -1.7945]
-    - [51.0670, -1.7960]
-    - [51.0662, -1.7975]
-    - [51.0670, -1.7960]
-    - [51.0678, -1.7945]
-    - [51.0690, -1.7945]
-    - [51.0700, -1.7945]
-    - [51.0708, -1.7955]
-    - [51.0712, -1.7958]
-    - [51.0715, -1.7955]
-    - [51.0718, -1.7958]
-    - [51.0720, -1.7960]
-    - [51.0718, -1.7955]
-    - [51.0715, -1.7950]
-    - [51.0712, -1.7940]
-    - [51.0715, -1.7925]
-    - [51.0718, -1.7910]
-    - [51.0722, -1.7900]
-    - [51.0728, -1.7910]
-    - [51.0733, -1.7918]
-    - [51.0738, -1.7918]
+    # Start: Magdalene Court, Gigant Street (SP1 2DL)
+    - [51.0675, -1.7910]
+    # South on Gigant Street
+    - [51.0673, -1.7915]
+    - [51.0670, -1.7920]
+    # West through Brown Street area
+    - [51.0672, -1.7930]
+    # Salt Lane car park area
+    - [51.0674, -1.7940]
+    # West to Old George Mall (SP1 2AG)
+    - [51.0676, -1.7950]
+    - [51.0676, -1.7958]
+    # South through New Canal
+    - [51.0674, -1.7960]
+    # South on High Street
+    - [51.0673, -1.7970]
+    # Through High Street Gate (SP1 2PQ)
+    - [51.0671, -1.7979]
+    # Into The Close
+    - [51.0667, -1.7980]
+    - [51.0660, -1.7980]
+    # Salisbury Cathedral
+    - [51.0652, -1.7980]
+    # Return north through The Close
+    - [51.0660, -1.7980]
+    - [51.0667, -1.7980]
+    # Back through High Street Gate
+    - [51.0671, -1.7979]
+    # North on High Street
+    - [51.0680, -1.7975]
+    - [51.0685, -1.7970]
+    # Silver Street / St Thomas's area
+    - [51.0688, -1.7968]
+    - [51.0690, -1.7968]
+    # North to Market Place (SP1 1TL)
+    - [51.0692, -1.7968]
+    - [51.0695, -1.7969]
+    # Through Butcher Row / Queen Street
+    - [51.0692, -1.7962]
+    - [51.0688, -1.7958]
+    - [51.0685, -1.7952]
+    # East along Milford Street
+    - [51.0684, -1.7945]
+    # Red Lion Hotel (SP1 2AN)
+    - [51.0684, -1.7935]
+    - [51.0686, -1.7925]
+    # North on Rollestone Street (SP1 1ED)
+    - [51.0695, -1.7925]
+    - [51.0705, -1.7920]
+    # Back to Gigant Street / Magdalene Court
+    - [51.0680, -1.7915]
+    - [51.0675, -1.7910]
 
 photos:
   - id: "PA180001"
@@ -92,8 +112,8 @@ photos:
     alt: "Gigant Street looking south, new-build brick houses both sides"
     comparison: true
     streetview:
-      lat: 51.0733
-      lng: -1.7922
+      lat: 51.0674
+      lng: -1.7914
       heading: 180
       pitch: 0
 
@@ -103,8 +123,8 @@ photos:
     alt: "Row of terraced houses with dormers on Gigant Street"
     comparison: true
     streetview:
-      lat: 51.0730
-      lng: -1.7925
+      lat: 51.0672
+      lng: -1.7918
       heading: 200
       pitch: 0
 
@@ -150,8 +170,8 @@ photos:
     alt: "Narrow passage with timber-framed building leading into Old George Mall"
     comparison: true
     streetview:
-      lat: 51.0712
-      lng: -1.7948
+      lat: 51.0677
+      lng: -1.7952
       heading: 210
       pitch: 0
 
@@ -161,8 +181,8 @@ photos:
     alt: "Old George Mall entrance on New Street with Tourist Information sign"
     comparison: true
     streetview:
-      lat: 51.0710
-      lng: -1.7945
+      lat: 51.0676
+      lng: -1.7958
       heading: 190
       pitch: 0
 
@@ -184,8 +204,8 @@ photos:
     alt: "BHS store on New Canal"
     comparison: true
     streetview:
-      lat: 51.0707
-      lng: -1.7942
+      lat: 51.0675
+      lng: -1.7955
       heading: 270
       pitch: 0
 
@@ -213,8 +233,8 @@ photos:
     alt: "High Street looking south with timber-framed buildings and Littlewoods Index"
     comparison: true
     streetview:
-      lat: 51.0700
-      lng: -1.7945
+      lat: 51.0676
+      lng: -1.7968
       heading: 190
       pitch: 0
 
@@ -224,8 +244,8 @@ photos:
     alt: "High Street looking south towards the medieval North Gate arch"
     comparison: true
     streetview:
-      lat: 51.0695
-      lng: -1.7945
+      lat: 51.0674
+      lng: -1.7972
       heading: 190
       pitch: 0
 
@@ -235,8 +255,8 @@ photos:
     alt: "Close-up of the medieval High Street Gate with coat of arms"
     comparison: true
     streetview:
-      lat: 51.0691
-      lng: -1.7945
+      lat: 51.0672
+      lng: -1.7977
       heading: 190
       pitch: 10
 
@@ -258,8 +278,8 @@ photos:
     alt: "Entrance to The Close by the Medieval Hall with Cathedral visible through trees"
     comparison: true
     streetview:
-      lat: 51.0678
-      lng: -1.7950
+      lat: 51.0667
+      lng: -1.7980
       heading: 220
       pitch: 0
 
@@ -269,8 +289,8 @@ photos:
     alt: "Salisbury Cathedral north side with viewing telescope"
     comparison: true
     streetview:
-      lat: 51.0667
-      lng: -1.7970
+      lat: 51.0658
+      lng: -1.7975
       heading: 220
       pitch: 10
 
@@ -280,8 +300,8 @@ photos:
     alt: "Cathedral west front with scaffolding during restoration"
     comparison: true
     streetview:
-      lat: 51.0662
-      lng: -1.7980
+      lat: 51.0654
+      lng: -1.7985
       heading: 180
       pitch: 15
 
@@ -291,8 +311,8 @@ photos:
     alt: "Close-up of Cathedral west front statues and Gothic arches"
     comparison: true
     streetview:
-      lat: 51.0660
-      lng: -1.7978
+      lat: 51.0652
+      lng: -1.7982
       heading: 100
       pitch: 30
 
@@ -314,8 +334,8 @@ photos:
     alt: "High Street Gate from the Cathedral Close side looking north into town"
     comparison: true
     streetview:
-      lat: 51.0688
-      lng: -1.7943
+      lat: 51.0670
+      lng: -1.7978
       heading: 10
       pitch: 5
 
@@ -325,8 +345,8 @@ photos:
     alt: "High Street looking north with Prezzo and Bernstein's Cookshop"
     comparison: true
     streetview:
-      lat: 51.0695
-      lng: -1.7945
+      lat: 51.0675
+      lng: -1.7975
       heading: 10
       pitch: 0
 
@@ -342,8 +362,8 @@ photos:
     alt: "Silver Street junction with church tower, Burger King and traffic"
     comparison: true
     streetview:
-      lat: 51.0708
-      lng: -1.7955
+      lat: 51.0688
+      lng: -1.7968
       heading: 340
       pitch: 0
 
@@ -383,8 +403,8 @@ photos:
     alt: "Market Place with grand Victorian buildings and ornate lamp post"
     comparison: true
     streetview:
-      lat: 51.0718
-      lng: -1.7958
+      lat: 51.0695
+      lng: -1.7969
       heading: 300
       pitch: 0
 
@@ -394,8 +414,8 @@ photos:
     alt: "Market Place crossing looking east"
     comparison: true
     streetview:
-      lat: 51.0718
-      lng: -1.7960
+      lat: 51.0695
+      lng: -1.7970
       heading: 90
       pitch: 0
 
@@ -405,8 +425,8 @@ photos:
     alt: "Market Square with stalls, St George's flag and Sportsman shop"
     comparison: true
     streetview:
-      lat: 51.0720
-      lng: -1.7962
+      lat: 51.0694
+      lng: -1.7972
       heading: 310
       pitch: 0
 
@@ -440,8 +460,8 @@ photos:
     alt: "Market Square with Salisbury Farmers Market banner, Guildhall and Ox Row pub"
     comparison: true
     streetview:
-      lat: 51.0720
-      lng: -1.7965
+      lat: 51.0693
+      lng: -1.7968
       heading: 300
       pitch: 0
 
@@ -463,8 +483,8 @@ photos:
     alt: "Butcher Row with timber-framed buildings, Rowland's shop and Union Jack"
     comparison: true
     streetview:
-      lat: 51.0715
-      lng: -1.7950
+      lat: 51.0690
+      lng: -1.7960
       heading: 200
       pitch: 0
 
@@ -474,8 +494,8 @@ photos:
     alt: "Queen Street junction with timber-framed Repertoire shop and Moss"
     comparison: true
     streetview:
-      lat: 51.0712
-      lng: -1.7942
+      lat: 51.0687
+      lng: -1.7955
       heading: 200
       pitch: 0
 
@@ -491,8 +511,8 @@ photos:
     alt: "Milford Street with The Red Lion coaching inn"
     comparison: true
     streetview:
-      lat: 51.0715
-      lng: -1.7920
+      lat: 51.0684
+      lng: -1.7935
       heading: 90
       pitch: 0
 
