@@ -39,39 +39,39 @@ route:
 
 photos:
   - id: "PA180001"
-    location: "B&B"
+    location: "17 Magdalene Court, Gigant Street"
     orientation: "portrait"
-    alt: "Front door of the B&B, starting point of the walk"
+    alt: "Front door of 17 Magdalene Court, starting point of the walk"
     comparison: false
 
   - id: "PA180002"
-    location: "B&B"
+    location: "Magdalene Court, Gigant Street"
     orientation: "portrait"
     alt: "Interior hallway of the B&B"
     comparison: false
 
   - id: "PA180003"
-    location: "B&B"
+    location: "Magdalene Court, Gigant Street"
     orientation: "portrait"
-    alt: "B&B corridor"
+    alt: "Magdalene Court corridor"
     comparison: false
 
   - id: "PA180004"
-    location: "B&B"
+    location: "Magdalene Court, Gigant Street"
     orientation: "portrait"
-    alt: "B&B stairwell"
+    alt: "Magdalene Court stairwell"
     comparison: false
 
   - id: "PA180005"
-    location: "B&B"
+    location: "Magdalene Court, Gigant Street"
     orientation: "portrait"
     alt: "View from B&B window"
     comparison: false
 
   - id: "PA180006"
-    location: "B&B"
+    location: "Magdalene Court, Gigant Street"
     orientation: "portrait"
-    alt: "B&B entrance area"
+    alt: "Magdalene Court entrance area"
     comparison: false
 
   - id: "PA180007"
@@ -533,49 +533,49 @@ photos:
     comparison: false
 
   - id: "PA180065"
-    location: "Near B&B"
+    location: "Near Magdalene Court"
     orientation: "landscape"
     alt: "Gated car park behind the B&B"
     comparison: false
 
   - id: "PA180066"
-    location: "Near B&B"
+    location: "Near Magdalene Court"
     orientation: "landscape"
     alt: "Car park area approaching B&B from the rear"
     comparison: false
 
   - id: "PA180067"
-    location: "Near B&B"
+    location: "Near Magdalene Court"
     orientation: "landscape"
     alt: "Alley path back to the B&B"
     comparison: false
 
   - id: "PA180068"
-    location: "B&B"
+    location: "Magdalene Court, Gigant Street"
     orientation: "landscape"
-    alt: "B&B entrance door with Apartments 17-21 plaque and intercom"
+    alt: "Magdalene Court entrance door with Apartments 17-21 plaque and intercom"
     comparison: false
 
   - id: "PA180069"
-    location: "B&B"
+    location: "Magdalene Court, Gigant Street"
     orientation: "landscape"
-    alt: "B&B interior stairwell"
+    alt: "Magdalene Court interior stairwell"
     comparison: false
 
   - id: "PA180070"
-    location: "B&B"
+    location: "Magdalene Court, Gigant Street"
     orientation: "landscape"
-    alt: "B&B hallway with door to room 17 visible through glass"
+    alt: "Magdalene Court hallway with door to room 17 visible through glass"
     comparison: false
 
   - id: "PA180071"
-    location: "B&B"
+    location: "Magdalene Court, Gigant Street"
     orientation: "landscape"
-    alt: "B&B glass door to room corridor"
+    alt: "Magdalene Court glass door to room corridor"
     comparison: false
 
   - id: "PA180074"
-    location: "B&B"
+    location: "Magdalene Court, Gigant Street"
     orientation: "landscape"
     alt: "Door of room 17, end of the walk"
     comparison: false
