@@ -20,3 +20,5 @@ exclude:
   - redundant/
   - index.old.html
   - .playwright-mcp/
+  - docs/
+google_maps_api_key: ""
