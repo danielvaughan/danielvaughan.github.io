@@ -3,86 +3,208 @@ layout: salisbury-walk
 title: "A Walk Around Salisbury"
 extra_css:
   - "https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  - "https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Source+Sans+3:wght@300;400;500;600&display=swap"
 ---
 
 <style>
-  /* Hero */
-  .sw-hero {
-    text-align: center;
-    padding: 3rem 1rem 2rem;
-    border-bottom: 1px solid #e9ecef;
-  }
-  .sw-hero h1 {
-    font-size: 2rem;
-    font-weight: 300;
-    margin-bottom: 0.25rem;
-  }
-  .sw-hero .sw-subtitle {
-    color: #6c757d;
-    font-size: 1.1rem;
+  :root {
+    --sw-bg: #141414;
+    --sw-surface: #1e1e1e;
+    --sw-surface-raised: #262626;
+    --sw-border: #333;
+    --sw-text: #e8e4df;
+    --sw-text-muted: #8a8580;
+    --sw-text-dim: #5a5652;
+    --sw-accent-warm: #c9a84c;
+    --sw-accent-cool: #6eb5ff;
+    --sw-accent-warm-dim: rgba(201, 168, 76, 0.15);
+    --sw-accent-cool-dim: rgba(110, 181, 255, 0.12);
+    --sw-serif: 'Playfair Display', Georgia, 'Times New Roman', serif;
+    --sw-sans: 'Source Sans 3', 'Segoe UI', sans-serif;
   }
 
-  /* Main layout */
+  body {
+    background: var(--sw-bg) !important;
+    color: var(--sw-text);
+  }
+
+  /* ─── Hero ─── */
+  .sw-hero {
+    text-align: center;
+    padding: 6rem 2rem 4rem;
+    position: relative;
+    overflow: hidden;
+  }
+  .sw-hero::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: radial-gradient(ellipse at 50% 80%, rgba(201,168,76,0.06) 0%, transparent 60%);
+    pointer-events: none;
+  }
+  .sw-hero-eyebrow {
+    font-family: var(--sw-sans);
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--sw-accent-warm);
+    margin-bottom: 1.5rem;
+    opacity: 0;
+    transform: translateY(12px);
+    animation: sw-fade-up 0.8s 0.2s forwards;
+  }
+  .sw-hero h1 {
+    font-family: var(--sw-serif);
+    font-size: clamp(2.5rem, 6vw, 4.5rem);
+    font-weight: 400;
+    line-height: 1.15;
+    color: var(--sw-text);
+    margin: 0 0 1rem;
+    opacity: 0;
+    transform: translateY(16px);
+    animation: sw-fade-up 0.8s 0.4s forwards;
+  }
+  .sw-hero .sw-subtitle {
+    font-family: var(--sw-serif);
+    font-style: italic;
+    font-size: 1.3rem;
+    color: var(--sw-text-muted);
+    opacity: 0;
+    transform: translateY(12px);
+    animation: sw-fade-up 0.8s 0.6s forwards;
+  }
+  .sw-hero-rule {
+    width: 48px;
+    height: 1px;
+    background: var(--sw-accent-warm);
+    margin: 2rem auto 0;
+    opacity: 0;
+    animation: sw-fade-up 0.8s 0.8s forwards;
+  }
+
+  @keyframes sw-fade-up {
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  /* ─── Page progress ─── */
+  .sw-page-progress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: linear-gradient(90deg, var(--sw-accent-warm), var(--sw-accent-cool));
+    z-index: 9999;
+    transition: width 0.3s ease;
+  }
+
+  /* ─── Main layout ─── */
   .sw-main {
     display: flex;
-    max-width: 1400px;
+    max-width: 1440px;
     margin: 0 auto;
-    padding: 1.5rem;
-    gap: 1.5rem;
+    padding: 2rem 2rem 4rem;
+    gap: 2.5rem;
   }
   .sw-photos {
-    flex: 0 0 65%;
-    max-width: 65%;
+    flex: 0 0 62%;
+    max-width: 62%;
   }
   .sw-map-col {
-    flex: 0 0 35%;
-    max-width: 35%;
+    flex: 0 0 38%;
+    max-width: 38%;
   }
   .sw-map-sticky {
     position: sticky;
-    top: 1rem;
-    height: calc(100vh - 2rem);
+    top: 1.5rem;
+    height: calc(100vh - 3rem);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
   }
   #salisbury-map {
     width: 100%;
-    height: 100%;
-    border-radius: 8px;
-    border: 1px solid #dee2e6;
+    flex: 1;
+    border-radius: 12px;
+    border: 1px solid var(--sw-border);
+    overflow: hidden;
+  }
+  .sw-map-info {
+    font-family: var(--sw-sans);
+    font-size: 0.8rem;
+    color: var(--sw-text-dim);
+    text-align: center;
+    padding: 0.5rem;
+  }
+  .sw-map-info span {
+    color: var(--sw-text-muted);
   }
 
-  /* Photo cards */
+  /* Leaflet dark overrides */
+  .leaflet-control-zoom a {
+    background: var(--sw-surface-raised) !important;
+    color: var(--sw-text) !important;
+    border-color: var(--sw-border) !important;
+  }
+  .leaflet-control-attribution {
+    background: rgba(20,20,20,0.85) !important;
+    color: var(--sw-text-dim) !important;
+    font-size: 0.65rem !important;
+  }
+  .leaflet-control-attribution a { color: var(--sw-text-muted) !important; }
+
+  /* ─── Photo cards ─── */
   .sw-card {
-    margin-bottom: 1.5rem;
-    border: 1px solid #e9ecef;
-    border-radius: 8px;
+    margin-bottom: 2.5rem;
+    border-radius: 12px;
     overflow: hidden;
-    background: #fff;
+    background: var(--sw-surface);
+    border: 1px solid var(--sw-border);
+    box-shadow: 0 4px 24px rgba(0,0,0,0.3);
+    opacity: 0;
+    transform: translateY(24px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+  }
+  .sw-card.sw-visible {
+    opacity: 1;
+    transform: translateY(0);
   }
   .sw-card img {
     width: 100%;
     height: auto;
     display: block;
-    max-height: 500px;
+    max-height: 520px;
     object-fit: contain;
-    background: #f8f9fa;
+    background: #0a0a0a;
   }
   .sw-card-caption {
-    padding: 0.75rem 1rem;
+    padding: 1rem 1.25rem;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    font-size: 0.9rem;
-    color: #6c757d;
+    align-items: baseline;
+    font-family: var(--sw-sans);
+    font-size: 0.85rem;
+    color: var(--sw-text-dim);
+    border-top: 1px solid var(--sw-border);
   }
   .sw-card-location {
-    color: #212529;
-    font-weight: 500;
+    font-family: var(--sw-serif);
+    font-size: 0.95rem;
+    color: var(--sw-text-muted);
+    font-weight: 400;
+  }
+  .sw-card-number {
+    font-variant-numeric: tabular-nums;
+    font-size: 0.8rem;
+    letter-spacing: 0.02em;
   }
 
-  /* Comparison cards */
+  /* ─── Comparison cards ─── */
   .sw-comparison {
     display: flex;
     gap: 0;
+    position: relative;
   }
   .sw-comparison-then,
   .sw-comparison-now {
@@ -90,76 +212,123 @@ extra_css:
     min-width: 0;
   }
   .sw-comparison-then {
-    border-right: 2px solid #dee2e6;
+    background: var(--sw-accent-warm-dim);
+  }
+  .sw-comparison-now {
+    background: var(--sw-accent-cool-dim);
   }
   .sw-comparison-then img {
-    max-height: 350px;
+    max-height: 380px;
+  }
+  .sw-comparison-divider {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 1px;
+    background: linear-gradient(to bottom, transparent, var(--sw-text-dim) 20%, var(--sw-text-dim) 80%, transparent);
+    z-index: 2;
   }
   .sw-comparison-label {
-    font-size: 0.75rem;
+    font-family: var(--sw-sans);
+    font-size: 0.65rem;
     font-weight: 600;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.18em;
     text-transform: uppercase;
-    padding: 0.5rem 1rem 0.25rem;
+    padding: 0.75rem 1rem 0.4rem;
   }
-  .sw-label-then { color: #b8860b; }
-  .sw-label-now { color: #4a90d9; }
+  .sw-label-then { color: var(--sw-accent-warm); }
+  .sw-label-now { color: var(--sw-accent-cool); }
   .sw-streetview-frame {
     width: 100%;
-    height: 350px;
+    height: 380px;
     border: none;
+    display: block;
   }
   .sw-streetview-placeholder {
     width: 100%;
-    height: 350px;
-    background: #f0f4f8;
+    height: 380px;
+    background: linear-gradient(135deg, rgba(110,181,255,0.05) 0%, rgba(110,181,255,0.02) 100%);
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #adb5bd;
-    font-size: 0.9rem;
+    color: var(--sw-text-dim);
+    font-family: var(--sw-sans);
+    font-size: 0.85rem;
+    animation: sw-shimmer 2s ease-in-out infinite;
+  }
+  @keyframes sw-shimmer {
+    0%, 100% { opacity: 0.6; }
+    50% { opacity: 1; }
   }
 
-  /* Mobile progress bar */
+  /* ─── Mobile progress bar ─── */
   .sw-mobile-progress {
     display: none;
     position: sticky;
     top: 0;
     z-index: 1000;
-    background: #fff;
-    border-bottom: 1px solid #e9ecef;
-    padding: 0.5rem 1rem;
-    font-size: 0.85rem;
+    background: var(--sw-surface);
+    border-bottom: 1px solid var(--sw-border);
+    padding: 0.6rem 1rem;
+    font-family: var(--sw-sans);
+    font-size: 0.8rem;
+    color: var(--sw-text-muted);
+    backdrop-filter: blur(8px);
   }
   .sw-progress-bar {
-    height: 3px;
-    background: #e9ecef;
-    border-radius: 2px;
-    margin-top: 0.25rem;
+    height: 2px;
+    background: var(--sw-border);
+    border-radius: 1px;
+    margin-top: 0.35rem;
+    overflow: hidden;
   }
   .sw-progress-fill {
     height: 100%;
-    background: #212529;
-    border-radius: 2px;
+    background: linear-gradient(90deg, var(--sw-accent-warm), var(--sw-accent-cool));
+    border-radius: 1px;
     transition: width 0.3s ease;
   }
 
-  /* Back link */
+  /* ─── Footer ─── */
   .sw-back {
     text-align: center;
-    padding: 2rem;
-    border-top: 1px solid #e9ecef;
+    padding: 4rem 2rem;
+    border-top: 1px solid var(--sw-border);
+  }
+  .sw-back a {
+    font-family: var(--sw-sans);
+    font-size: 0.85rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--sw-text-muted);
+    text-decoration: none;
+    border-bottom: 1px solid var(--sw-border);
+    padding-bottom: 2px;
+    transition: color 0.2s, border-color 0.2s;
+  }
+  .sw-back a:hover {
+    color: var(--sw-accent-warm);
+    border-color: var(--sw-accent-warm);
   }
 
-  /* Responsive */
+  /* ─── Footer override ─── */
+  footer { background: var(--sw-bg) !important; color: var(--sw-text-dim) !important; border-color: var(--sw-border) !important; }
+  footer p { color: var(--sw-text-dim) !important; }
+
+  /* ─── Responsive ─── */
   @media (max-width: 991px) {
-    .sw-photos { flex: 0 0 70%; max-width: 70%; }
-    .sw-map-col { flex: 0 0 30%; max-width: 30%; }
+    .sw-photos { flex: 0 0 65%; max-width: 65%; }
+    .sw-map-col { flex: 0 0 35%; max-width: 35%; }
+    .sw-hero { padding: 4rem 1.5rem 3rem; }
   }
   @media (max-width: 767px) {
+    .sw-hero { padding: 3rem 1rem 2rem; }
+    .sw-hero h1 { font-size: 2rem; }
     .sw-main {
       flex-direction: column;
       padding: 1rem;
+      gap: 1rem;
     }
     .sw-photos, .sw-map-col {
       flex: none;
@@ -168,14 +337,21 @@ extra_css:
     .sw-map-col { display: none; }
     .sw-mobile-progress { display: block; }
     .sw-comparison { flex-direction: column; }
-    .sw-comparison-then { border-right: none; border-bottom: 2px solid #dee2e6; }
+    .sw-comparison-divider { display: none; }
+    .sw-comparison-then { border-bottom: 1px solid var(--sw-border); }
+    .sw-card { margin-bottom: 1.5rem; }
   }
 </style>
 
+<!-- Page progress bar -->
+<div class="sw-page-progress" id="sw-progress"></div>
+
 <!-- Hero -->
 <header class="sw-hero" role="banner">
-  <h1>{{ site.data.salisbury_walk.title }}</h1>
+  <p class="sw-hero-eyebrow">A Photo Essay</p>
+  <h1>A Walk Around<br>Salisbury</h1>
   <p class="sw-subtitle">{{ site.data.salisbury_walk.date }}</p>
+  <div class="sw-hero-rule"></div>
 </header>
 
 <!-- Mobile progress bar -->
@@ -206,6 +382,7 @@ extra_css:
                 {% if forloop.index <= 3 %}loading="eager"{% else %}loading="lazy"{% endif %}
               >
             </div>
+            <div class="sw-comparison-divider"></div>
             <div class="sw-comparison-now">
               <div class="sw-comparison-label sw-label-now">Today</div>
               <div
@@ -215,7 +392,7 @@ extra_css:
                 data-heading="{{ photo.streetview.heading }}"
                 data-pitch="{{ photo.streetview.pitch }}"
               >
-                Street View loading...
+                Street View loading&hellip;
               </div>
             </div>
           </div>
@@ -229,7 +406,7 @@ extra_css:
         {% endif %}
         <div class="sw-card-caption">
           <span class="sw-card-location">{{ photo.location }}</span>
-          <span>{{ num }} of {{ total }}</span>
+          <span class="sw-card-number">{{ num }}&thinsp;/&thinsp;{{ total }}</span>
         </div>
       </article>
     {% endfor %}
@@ -239,11 +416,14 @@ extra_css:
   <aside class="sw-map-col" role="complementary" aria-label="Walking route map">
     <div class="sw-map-sticky">
       <div id="salisbury-map"></div>
+      <div class="sw-map-info">
+        <span id="sw-map-location"></span>
+      </div>
       <noscript>
         <img
           src="{{ "/Salisbury/myroute.jpg" | relative_url }}"
           alt="Hand-drawn route map of the Salisbury walk"
-          style="width:100%; border-radius:8px;"
+          style="width:100%; border-radius:12px;"
         >
       </noscript>
     </div>
@@ -252,13 +432,35 @@ extra_css:
 
 <!-- Back link -->
 <div class="sw-back">
-  <a href="{{ "/" | relative_url }}">Back to danielvaughan.com</a>
+  <a href="{{ "/" | relative_url }}">danielvaughan.com</a>
 </div>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>
 (function() {
   'use strict';
+
+  // --- Page progress bar ---
+  var progressBar = document.getElementById('sw-progress');
+  window.addEventListener('scroll', function() {
+    var h = document.documentElement;
+    var pct = (h.scrollTop / (h.scrollHeight - h.clientHeight)) * 100;
+    progressBar.style.width = pct + '%';
+  }, { passive: true });
+
+  // --- Scroll reveal ---
+  var revealObserver = new IntersectionObserver(function(entries) {
+    entries.forEach(function(entry) {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('sw-visible');
+        revealObserver.unobserve(entry.target);
+      }
+    });
+  }, { rootMargin: '0px 0px -60px 0px', threshold: 0.05 });
+
+  document.querySelectorAll('.sw-card').forEach(function(card) {
+    revealObserver.observe(card);
+  });
 
   // --- Map setup ---
   var mapEl = document.getElementById('salisbury-map');
@@ -270,40 +472,57 @@ extra_css:
     {% endfor %}
   ];
 
-  // Default centre on Salisbury if no route yet
   var centre = routeCoords.length > 0 ? routeCoords[0] : [51.0700, -1.7950];
-  var map = L.map('salisbury-map', { scrollWheelZoom: false }).setView(centre, 16);
+  var map = L.map('salisbury-map', {
+    scrollWheelZoom: false,
+    zoomControl: true,
+    attributionControl: true
+  }).setView(centre, 16);
 
-  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '&copy; OpenStreetMap contributors',
+  // Stamen/Stadia Toner Lite for a refined look
+  L.tileLayer('https://tiles.stadiamaps.com/tiles/stamen_toner_lite/{z}/{x}/{y}{r}.png', {
+    attribution: '&copy; <a href="https://stadiamaps.com/">Stadia</a> &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright">OSM</a>',
     maxZoom: 19
   }).addTo(map);
 
-  // Draw route polyline
+  // Route polyline
   if (routeCoords.length > 1) {
-    L.polyline(routeCoords, { color: '#212529', weight: 3, opacity: 0.7 }).addTo(map);
-    map.fitBounds(L.polyline(routeCoords).getBounds().pad(0.1));
+    L.polyline(routeCoords, {
+      color: '#c9a84c',
+      weight: 3,
+      opacity: 0.6,
+      dashArray: '8 6',
+      lineCap: 'round'
+    }).addTo(map);
+    map.fitBounds(L.polyline(routeCoords).getBounds().pad(0.12));
   }
 
   // Position marker
   var marker = L.circleMarker(centre, {
-    radius: 8,
-    fillColor: '#dc3545',
-    color: '#fff',
-    weight: 2,
+    radius: 7,
+    fillColor: '#c9a84c',
+    color: '#1a1a1a',
+    weight: 3,
     fillOpacity: 1
+  }).addTo(map);
+
+  // Pulse ring
+  var pulse = L.circleMarker(centre, {
+    radius: 14,
+    fillColor: '#c9a84c',
+    color: 'transparent',
+    fillOpacity: 0.15
   }).addTo(map);
 
   // --- Scroll tracking ---
   var cards = document.querySelectorAll('.sw-card');
   var totalPhotos = cards.length;
-  var mobileProgress = document.querySelector('.sw-mobile-progress');
   var progressLocation = document.querySelector('.sw-progress-location');
   var progressCount = document.querySelector('.sw-progress-count');
   var progressFill = document.querySelector('.sw-progress-fill');
+  var mapLocationEl = document.getElementById('sw-map-location');
 
   function updatePosition(index) {
-    // Update map marker — interpolate along route
     if (routeCoords.length > 1) {
       var fraction = index / Math.max(totalPhotos - 1, 1);
       var segIndex = Math.min(
@@ -314,37 +533,28 @@ extra_css:
       var lat = routeCoords[segIndex][0] + segFraction * (routeCoords[segIndex + 1][0] - routeCoords[segIndex][0]);
       var lng = routeCoords[segIndex][1] + segFraction * (routeCoords[segIndex + 1][1] - routeCoords[segIndex][1]);
       marker.setLatLng([lat, lng]);
+      pulse.setLatLng([lat, lng]);
     }
 
-    // Update mobile progress bar
     var card = cards[index];
     var location = card ? card.querySelector('.sw-card-location') : null;
     var locText = location ? location.textContent : '';
     if (progressLocation) progressLocation.textContent = locText;
-    if (progressCount) progressCount.textContent = ' — ' + (index + 1) + ' of ' + totalPhotos;
+    if (progressCount) progressCount.textContent = ' \u2014 ' + (index + 1) + ' / ' + totalPhotos;
     if (progressFill) progressFill.style.width = ((index + 1) / totalPhotos * 100) + '%';
+    if (mapLocationEl) mapLocationEl.textContent = locText ? locText + ' \u2014 ' + (index + 1) + ' / ' + totalPhotos : '';
   }
 
-  // Intersection Observer
-  var currentIndex = 0;
   var observer = new IntersectionObserver(function(entries) {
     entries.forEach(function(entry) {
       if (entry.isIntersecting) {
         var idx = parseInt(entry.target.dataset.index, 10);
-        if (!isNaN(idx)) {
-          currentIndex = idx;
-          updatePosition(idx);
-        }
+        if (!isNaN(idx)) updatePosition(idx);
       }
     });
-  }, {
-    rootMargin: '-30% 0px -60% 0px',
-    threshold: 0
-  });
+  }, { rootMargin: '-30% 0px -60% 0px', threshold: 0 });
 
-  cards.forEach(function(card) {
-    observer.observe(card);
-  });
+  cards.forEach(function(card) { observer.observe(card); });
 
   // --- Lazy-load Street View iframes ---
   var streetviewPlaceholders = document.querySelectorAll('.sw-streetview-placeholder');
@@ -354,14 +564,10 @@ extra_css:
         var el = entry.target;
         var apiKey = '{{ site.google_maps_api_key }}';
         if (!apiKey) {
-          el.textContent = 'Street View (API key not configured)';
+          el.textContent = 'Street View \u2014 API key not configured';
           svObserver.unobserve(el);
           return;
         }
-        var lat = el.dataset.lat;
-        var lng = el.dataset.lng;
-        var heading = el.dataset.heading || 0;
-        var pitch = el.dataset.pitch || 0;
         var iframe = document.createElement('iframe');
         iframe.className = 'sw-streetview-frame';
         iframe.setAttribute('loading', 'lazy');
@@ -370,26 +576,20 @@ extra_css:
         iframe.setAttribute('title', 'Google Street View of this location today');
         iframe.src = 'https://www.google.com/maps/embed/v1/streetview'
           + '?key=' + encodeURIComponent(apiKey)
-          + '&location=' + lat + ',' + lng
-          + '&heading=' + heading
-          + '&pitch=' + pitch;
+          + '&location=' + el.dataset.lat + ',' + el.dataset.lng
+          + '&heading=' + (el.dataset.heading || 0)
+          + '&pitch=' + (el.dataset.pitch || 0);
         el.parentNode.replaceChild(iframe, el);
         svObserver.unobserve(el);
       }
     });
-  }, {
-    rootMargin: '200px 0px',
-    threshold: 0
-  });
+  }, { rootMargin: '200px 0px', threshold: 0 });
 
-  streetviewPlaceholders.forEach(function(el) {
-    svObserver.observe(el);
-  });
+  streetviewPlaceholders.forEach(function(el) { svObserver.observe(el); });
 
   // --- Map click to scroll ---
   if (routeCoords.length > 1) {
     map.on('click', function(e) {
-      // Find nearest photo by interpolated position
       var clickLat = e.latlng.lat;
       var clickLng = e.latlng.lng;
       var bestIndex = 0;
@@ -401,10 +601,7 @@ extra_css:
         var lat = routeCoords[si][0] + sf * (routeCoords[si + 1][0] - routeCoords[si][0]);
         var lng = routeCoords[si][1] + sf * (routeCoords[si + 1][1] - routeCoords[si][1]);
         var dist = Math.pow(clickLat - lat, 2) + Math.pow(clickLng - lng, 2);
-        if (dist < bestDist) {
-          bestDist = dist;
-          bestIndex = i;
-        }
+        if (dist < bestDist) { bestDist = dist; bestIndex = i; }
       }
       cards[bestIndex].scrollIntoView({ behavior: 'smooth', block: 'center' });
     });
