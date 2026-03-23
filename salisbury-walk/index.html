@@ -1,8 +1,413 @@
 ---
 layout: salisbury-walk
 title: "A Walk Around Salisbury"
+extra_css:
+  - "https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
 ---
-<div style="padding: 2rem; text-align: center;">
-  <h1>Layout test</h1>
-  <p>If this text is full-width (no container constraint), the layout works.</p>
+
+<style>
+  /* Hero */
+  .sw-hero {
+    text-align: center;
+    padding: 3rem 1rem 2rem;
+    border-bottom: 1px solid #e9ecef;
+  }
+  .sw-hero h1 {
+    font-size: 2rem;
+    font-weight: 300;
+    margin-bottom: 0.25rem;
+  }
+  .sw-hero .sw-subtitle {
+    color: #6c757d;
+    font-size: 1.1rem;
+  }
+
+  /* Main layout */
+  .sw-main {
+    display: flex;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 1.5rem;
+    gap: 1.5rem;
+  }
+  .sw-photos {
+    flex: 0 0 65%;
+    max-width: 65%;
+  }
+  .sw-map-col {
+    flex: 0 0 35%;
+    max-width: 35%;
+  }
+  .sw-map-sticky {
+    position: sticky;
+    top: 1rem;
+    height: calc(100vh - 2rem);
+  }
+  #salisbury-map {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    border: 1px solid #dee2e6;
+  }
+
+  /* Photo cards */
+  .sw-card {
+    margin-bottom: 1.5rem;
+    border: 1px solid #e9ecef;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #fff;
+  }
+  .sw-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    max-height: 500px;
+    object-fit: contain;
+    background: #f8f9fa;
+  }
+  .sw-card-caption {
+    padding: 0.75rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9rem;
+    color: #6c757d;
+  }
+  .sw-card-location {
+    color: #212529;
+    font-weight: 500;
+  }
+
+  /* Comparison cards */
+  .sw-comparison {
+    display: flex;
+    gap: 0;
+  }
+  .sw-comparison-then,
+  .sw-comparison-now {
+    flex: 1;
+    min-width: 0;
+  }
+  .sw-comparison-then {
+    border-right: 2px solid #dee2e6;
+  }
+  .sw-comparison-then img {
+    max-height: 350px;
+  }
+  .sw-comparison-label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    padding: 0.5rem 1rem 0.25rem;
+  }
+  .sw-label-then { color: #b8860b; }
+  .sw-label-now { color: #4a90d9; }
+  .sw-streetview-frame {
+    width: 100%;
+    height: 350px;
+    border: none;
+  }
+  .sw-streetview-placeholder {
+    width: 100%;
+    height: 350px;
+    background: #f0f4f8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #adb5bd;
+    font-size: 0.9rem;
+  }
+
+  /* Mobile progress bar */
+  .sw-mobile-progress {
+    display: none;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: #fff;
+    border-bottom: 1px solid #e9ecef;
+    padding: 0.5rem 1rem;
+    font-size: 0.85rem;
+  }
+  .sw-progress-bar {
+    height: 3px;
+    background: #e9ecef;
+    border-radius: 2px;
+    margin-top: 0.25rem;
+  }
+  .sw-progress-fill {
+    height: 100%;
+    background: #212529;
+    border-radius: 2px;
+    transition: width 0.3s ease;
+  }
+
+  /* Back link */
+  .sw-back {
+    text-align: center;
+    padding: 2rem;
+    border-top: 1px solid #e9ecef;
+  }
+
+  /* Responsive */
+  @media (max-width: 991px) {
+    .sw-photos { flex: 0 0 70%; max-width: 70%; }
+    .sw-map-col { flex: 0 0 30%; max-width: 30%; }
+  }
+  @media (max-width: 767px) {
+    .sw-main {
+      flex-direction: column;
+      padding: 1rem;
+    }
+    .sw-photos, .sw-map-col {
+      flex: none;
+      max-width: 100%;
+    }
+    .sw-map-col { display: none; }
+    .sw-mobile-progress { display: block; }
+    .sw-comparison { flex-direction: column; }
+    .sw-comparison-then { border-right: none; border-bottom: 2px solid #dee2e6; }
+  }
+</style>
+
+<!-- Hero -->
+<header class="sw-hero" role="banner">
+  <h1>{{ site.data.salisbury_walk.title }}</h1>
+  <p class="sw-subtitle">{{ site.data.salisbury_walk.date }}</p>
+</header>
+
+<!-- Mobile progress bar -->
+<div class="sw-mobile-progress" aria-live="polite">
+  <span class="sw-progress-location"></span>
+  <span class="sw-progress-count"></span>
+  <div class="sw-progress-bar">
+    <div class="sw-progress-fill" style="width: 0%"></div>
+  </div>
 </div>
+
+<!-- Main content -->
+<div class="sw-main">
+  <!-- Photo column -->
+  <div class="sw-photos" role="main" aria-label="Photo sequence">
+    {% assign total = site.data.salisbury_walk.photos | size %}
+    {% for photo in site.data.salisbury_walk.photos %}
+      {% assign num = forloop.index %}
+      <article class="sw-card" id="photo-{{ photo.id }}" data-index="{{ forloop.index0 }}">
+        {% if photo.comparison and photo.streetview %}
+          <!-- Comparison card: then vs now -->
+          <div class="sw-comparison">
+            <div class="sw-comparison-then">
+              <div class="sw-comparison-label sw-label-then">2002</div>
+              <img
+                src="{{ "/Salisbury/" | append: photo.id | append: ".jpg" | relative_url }}"
+                alt="{{ photo.alt }}"
+                {% if forloop.index <= 3 %}loading="eager"{% else %}loading="lazy"{% endif %}
+              >
+            </div>
+            <div class="sw-comparison-now">
+              <div class="sw-comparison-label sw-label-now">Today</div>
+              <div
+                class="sw-streetview-placeholder"
+                data-lat="{{ photo.streetview.lat }}"
+                data-lng="{{ photo.streetview.lng }}"
+                data-heading="{{ photo.streetview.heading }}"
+                data-pitch="{{ photo.streetview.pitch }}"
+              >
+                Street View loading...
+              </div>
+            </div>
+          </div>
+        {% else %}
+          <!-- Standard photo card -->
+          <img
+            src="{{ "/Salisbury/" | append: photo.id | append: ".jpg" | relative_url }}"
+            alt="{{ photo.alt }}"
+            {% if forloop.index <= 3 %}loading="eager"{% else %}loading="lazy"{% endif %}
+          >
+        {% endif %}
+        <div class="sw-card-caption">
+          <span class="sw-card-location">{{ photo.location }}</span>
+          <span>{{ num }} of {{ total }}</span>
+        </div>
+      </article>
+    {% endfor %}
+  </div>
+
+  <!-- Map column -->
+  <aside class="sw-map-col" role="complementary" aria-label="Walking route map">
+    <div class="sw-map-sticky">
+      <div id="salisbury-map"></div>
+      <noscript>
+        <img
+          src="{{ "/Salisbury/myroute.jpg" | relative_url }}"
+          alt="Hand-drawn route map of the Salisbury walk"
+          style="width:100%; border-radius:8px;"
+        >
+      </noscript>
+    </div>
+  </aside>
+</div>
+
+<!-- Back link -->
+<div class="sw-back">
+  <a href="{{ "/" | relative_url }}">Back to danielvaughan.com</a>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+(function() {
+  'use strict';
+
+  // --- Map setup ---
+  var mapEl = document.getElementById('salisbury-map');
+  if (!mapEl) return;
+
+  var routeCoords = [
+    {% for coord in site.data.salisbury_walk.route.coordinates %}
+      [{{ coord[0] }}, {{ coord[1] }}]{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ];
+
+  // Default centre on Salisbury if no route yet
+  var centre = routeCoords.length > 0 ? routeCoords[0] : [51.0700, -1.7950];
+  var map = L.map('salisbury-map', { scrollWheelZoom: false }).setView(centre, 16);
+
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; OpenStreetMap contributors',
+    maxZoom: 19
+  }).addTo(map);
+
+  // Draw route polyline
+  if (routeCoords.length > 1) {
+    L.polyline(routeCoords, { color: '#212529', weight: 3, opacity: 0.7 }).addTo(map);
+    map.fitBounds(L.polyline(routeCoords).getBounds().pad(0.1));
+  }
+
+  // Position marker
+  var marker = L.circleMarker(centre, {
+    radius: 8,
+    fillColor: '#dc3545',
+    color: '#fff',
+    weight: 2,
+    fillOpacity: 1
+  }).addTo(map);
+
+  // --- Scroll tracking ---
+  var cards = document.querySelectorAll('.sw-card');
+  var totalPhotos = cards.length;
+  var mobileProgress = document.querySelector('.sw-mobile-progress');
+  var progressLocation = document.querySelector('.sw-progress-location');
+  var progressCount = document.querySelector('.sw-progress-count');
+  var progressFill = document.querySelector('.sw-progress-fill');
+
+  function updatePosition(index) {
+    // Update map marker — interpolate along route
+    if (routeCoords.length > 1) {
+      var fraction = index / Math.max(totalPhotos - 1, 1);
+      var segIndex = Math.min(
+        Math.floor(fraction * (routeCoords.length - 1)),
+        routeCoords.length - 2
+      );
+      var segFraction = (fraction * (routeCoords.length - 1)) - segIndex;
+      var lat = routeCoords[segIndex][0] + segFraction * (routeCoords[segIndex + 1][0] - routeCoords[segIndex][0]);
+      var lng = routeCoords[segIndex][1] + segFraction * (routeCoords[segIndex + 1][1] - routeCoords[segIndex][1]);
+      marker.setLatLng([lat, lng]);
+    }
+
+    // Update mobile progress bar
+    var card = cards[index];
+    var location = card ? card.querySelector('.sw-card-location') : null;
+    var locText = location ? location.textContent : '';
+    if (progressLocation) progressLocation.textContent = locText;
+    if (progressCount) progressCount.textContent = ' — ' + (index + 1) + ' of ' + totalPhotos;
+    if (progressFill) progressFill.style.width = ((index + 1) / totalPhotos * 100) + '%';
+  }
+
+  // Intersection Observer
+  var currentIndex = 0;
+  var observer = new IntersectionObserver(function(entries) {
+    entries.forEach(function(entry) {
+      if (entry.isIntersecting) {
+        var idx = parseInt(entry.target.dataset.index, 10);
+        if (!isNaN(idx)) {
+          currentIndex = idx;
+          updatePosition(idx);
+        }
+      }
+    });
+  }, {
+    rootMargin: '-30% 0px -60% 0px',
+    threshold: 0
+  });
+
+  cards.forEach(function(card) {
+    observer.observe(card);
+  });
+
+  // --- Lazy-load Street View iframes ---
+  var streetviewPlaceholders = document.querySelectorAll('.sw-streetview-placeholder');
+  var svObserver = new IntersectionObserver(function(entries) {
+    entries.forEach(function(entry) {
+      if (entry.isIntersecting) {
+        var el = entry.target;
+        var apiKey = '{{ site.google_maps_api_key }}';
+        if (!apiKey) {
+          el.textContent = 'Street View (API key not configured)';
+          svObserver.unobserve(el);
+          return;
+        }
+        var lat = el.dataset.lat;
+        var lng = el.dataset.lng;
+        var heading = el.dataset.heading || 0;
+        var pitch = el.dataset.pitch || 0;
+        var iframe = document.createElement('iframe');
+        iframe.className = 'sw-streetview-frame';
+        iframe.setAttribute('loading', 'lazy');
+        iframe.setAttribute('allowfullscreen', '');
+        iframe.setAttribute('referrerpolicy', 'no-referrer-when-downgrade');
+        iframe.setAttribute('title', 'Google Street View of this location today');
+        iframe.src = 'https://www.google.com/maps/embed/v1/streetview'
+          + '?key=' + encodeURIComponent(apiKey)
+          + '&location=' + lat + ',' + lng
+          + '&heading=' + heading
+          + '&pitch=' + pitch;
+        el.parentNode.replaceChild(iframe, el);
+        svObserver.unobserve(el);
+      }
+    });
+  }, {
+    rootMargin: '200px 0px',
+    threshold: 0
+  });
+
+  streetviewPlaceholders.forEach(function(el) {
+    svObserver.observe(el);
+  });
+
+  // --- Map click to scroll ---
+  if (routeCoords.length > 1) {
+    map.on('click', function(e) {
+      // Find nearest photo by interpolated position
+      var clickLat = e.latlng.lat;
+      var clickLng = e.latlng.lng;
+      var bestIndex = 0;
+      var bestDist = Infinity;
+      for (var i = 0; i < totalPhotos; i++) {
+        var frac = i / Math.max(totalPhotos - 1, 1);
+        var si = Math.min(Math.floor(frac * (routeCoords.length - 1)), routeCoords.length - 2);
+        var sf = (frac * (routeCoords.length - 1)) - si;
+        var lat = routeCoords[si][0] + sf * (routeCoords[si + 1][0] - routeCoords[si][0]);
+        var lng = routeCoords[si][1] + sf * (routeCoords[si + 1][1] - routeCoords[si][1]);
+        var dist = Math.pow(clickLat - lat, 2) + Math.pow(clickLng - lng, 2);
+        if (dist < bestDist) {
+          bestDist = dist;
+          bestIndex = i;
+        }
+      }
+      cards[bestIndex].scrollIntoView({ behavior: 'smooth', block: 'center' });
+    });
+  }
+})();
+</script>
