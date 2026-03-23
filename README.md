@@ -50,7 +50,7 @@ Single-page profile layout with sections:
 
 ## Related
 
-- **Blog**: [blog.danielvaughan.com](https://blog.danielvaughan.com)
+- **Blog**: [blog.danielvaughan.com](https://blog.danielvaughan.com) — hosted on Medium
 - **Newsletter**: [danielpvaughan.substack.com](https://danielpvaughan.substack.com) — *Custodian of Intent*
 - **LinkedIn**: [linkedin.com/in/danielpvaughan](https://www.linkedin.com/in/danielpvaughan)
 - **Obsidian vault**: [github.com/danielvaughan/obsidian-vault](https://github.com/danielvaughan/obsidian-vault)
