@@ -8,9 +8,9 @@ description: Technology leader and software architect specialising in Agentic AI
   <div class="container">
     <div class="row align-items-center">
       <div class="col-md-8 order-2 order-md-1">
-        <p class="hero-eyebrow">Technology Leader · Agentic AI · Software Engineering</p>
+        <p class="hero-eyebrow">Technology Leader · Agentic AI · Forward Deployed Engineering</p>
         <h1 class="hero-name">Daniel Vaughan</h1>
-        <p class="hero-bio">I help organisations understand and navigate the future of work, specifically how Agentic AI is transforming software engineering.</p>
+        <p class="hero-bio">I help organisations turn AI investment into production systems that work correctly from the start. Not just faster delivery, but higher quality at the same cost.</p>
         <div class="hero-actions">
           <a href="https://blog.danielvaughan.com" target="_blank" rel="noopener noreferrer" class="connect-btn connect-blog">Read My Blog</a>
           <a href="https://www.linkedin.com/in/danielpvaughan" target="_blank" rel="noopener noreferrer" class="connect-btn connect-linkedin">LinkedIn</a>
@@ -26,18 +26,19 @@ description: Technology leader and software architect specialising in Agentic AI
 <section class="content-section bg-white" id="about">
   <div class="container">
     <h2>About me</h2>
-    <p>With 25 years of experience across enterprise, startup and academic settings, I now focus on the most significant technological shift of my career: the transition to AI-native architectures. I am a technology leader and software architect specialising in generative AI, building scalable systems where human engineers and autonomous agents work together.</p>
-    <p>I thrive on building the culture and environments this new era of engineering demands. My approach is entrepreneurial and customer-focused, with a strong bias for action. Whether advising leaders on AI adoption or working hands-on with Agentic workflows, my goal is to turn AI hype into tangible, proven results.</p>
+    <p>Twenty-five years across enterprise, startup and academic settings. My focus now is entirely on one shift: the point where AI stops being an experiment and becomes core to the organisation. I specialise in agentic AI, building production systems where human engineers and autonomous agents work together.</p>
+    <p>I build the culture and environments this new era of engineering demands. Entrepreneurial, customer-focused, with a strong bias for action. Whether advising leaders on AI adoption, standing up forward deployed engineering practices from scratch, or working hands-on with agentic workflows, the goal is the same: turn AI investment into proven results.</p>
   </div>
 </section>
 
 <section class="content-section bg-alt" id="role">
   <div class="container">
     <h2>Current role</h2>
-    <h3>Programme Director, <a href="https://www.hcltech.com" target="_blank" rel="noopener noreferrer">HCLTech AI Labs</a></h3>
-    <p>I lead and mentor the EMEA AI Architecture team, directing the strategy, design and implementation of Agentic AI solutions.</p>
-    <p>A major focus is pioneering Agentic Software Engineering. We are changing how software is built using '2.5-person pods', a shared architect, two engineers and a team of coding agents. The model accelerates delivery of PoCs, MVPs and pilots without sacrificing governance.</p>
-    <p>My technical specialism is the Google Cloud ecosystem. I build with the Agent Development Kit (ADK), Vertex AI and Gemini models, and collaborate with OpenAI, Red Hat and other ecosystem partners.</p>
+    <h3>Head of Forward Deployed Engineering, <a href="https://www.hcltech.com" target="_blank" rel="noopener noreferrer">HCLTech AI Labs</a></h3>
+    <p>I lead HCLTech's global Forward Deployed Engineering practice in AI Labs. Engineers embedded with customers, deploying production AI inside complex enterprise environments, legacy systems, cautious security teams and real users who need to trust the output. Not consultants writing recommendations.</p>
+    <p>The practice runs multiple regional pods across the US, EMEA and APAC, each managing concurrent customer deployments. The model is lean: shared architect, two engineers and a team of coding agents. I built the practice from the ground up, from operating model and hiring through to engagement frameworks and quality standards.</p>
+    <p>Each engagement compounds into the next through field intelligence, reusable patterns and shared standards. End-to-end ownership of agentic AI delivery, from architecture through production to customer handover. Deep technical work across Google, OpenAI and Anthropic.</p>
+    <p>Most AI projects stall between prototype and production. We exist to close that gap.</p>
     <h3>Previous experience</h3>
     <p>Before HCLTech AI Labs, I was director of software engineering at <a href="https://www.vocalink.com/" target="_blank" rel="noopener noreferrer">Mastercard</a> in London, leading cloud strategy and architecture for <a href="https://b2b.mastercard.com/real-time-payments/" target="_blank" rel="noopener noreferrer">real-time payment products</a>. Before that, I held roles at HCL Cloud Native Labs, progressing from cloud native solutions expert to head of solutions architecture.</p>
     <p>Earlier in my career, I spent eight years at the <a href="https://www.ebi.ac.uk" target="_blank" rel="noopener noreferrer">European Bioinformatics Institute</a> in Cambridge, starting as a software engineer and moving into engineering leadership. My focus was software quality and developer productivity.</p>
@@ -50,7 +51,7 @@ description: Technology leader and software architect specialising in Agentic AI
     <div class="book-card mb-3">
       <div class="book-title"><a href="https://cloudnativegcp.com" target="_blank" rel="noopener noreferrer">Cloud Native Development with Google Cloud</a></div>
       <div class="book-meta">O'Reilly · January 2024</div>
-      <p class="mb-0">A practical guide to building cloud-native applications on Google Cloud, covering Kubernetes, Cloud Run and the full GCP ecosystem.</p>
+      <p class="mb-0">A practical guide to building cloud native applications on Google Cloud, covering Kubernetes, Cloud Run and the full GCP ecosystem.</p>
     </div>
     <div class="book-card mb-4">
       <div class="book-title"><a href="https://www.amazon.co.uk/Ext-GWT-2-0-Beginners-Guide/dp/1849511845" target="_blank" rel="noopener noreferrer">Ext GWT 2.0: Beginner's Guide</a></div>
@@ -63,7 +64,7 @@ description: Technology leader and software architect specialising in Agentic AI
 <section class="content-section bg-alt" id="community">
   <div class="container">
     <h2>Community</h2>
-    <p>I am passionate about community and skills development. I founded the Genome Campus Software Community and EMBL-EBI Technical Seminars Programme. I currently organise the <a href="https://www.meetup.com/cambridge-software-crafters/" target="_blank" rel="noopener noreferrer">Software Crafters Cambridge</a> Meetup group.</p>
+    <p>Community and skills development run through my career. I founded the Genome Campus Software Community and EMBL-EBI Technical Seminars Programme. I currently organise the <a href="https://www.meetup.com/cambridge-software-crafters/" target="_blank" rel="noopener noreferrer">Software Crafters Cambridge</a> Meetup group.</p>
     <p class="mb-0">I live in Saffron Walden with my wife Michelle and son Alex.</p>
   </div>
 </section>
