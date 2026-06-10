@@ -10,7 +10,7 @@ description: Technology leader and software architect specialising in Agentic AI
       <div class="col-md-8 order-2 order-md-1">
         <p class="hero-eyebrow">Technology Leader · Agentic AI · Forward Deployed Engineering</p>
         <h1 class="hero-name">Daniel Vaughan</h1>
-        <p class="hero-bio">I help organisations turn AI investment into production systems that work correctly from the start. Not just faster delivery, but higher quality at the same cost.</p>
+        <p class="hero-bio">I help organisations turn AI investment into results: production systems that work correctly from the start, and agentic ways of working that make their own people measurably more productive. Not just faster delivery, but higher quality at the same cost.</p>
         <div class="hero-actions">
           <a href="https://blog.danielvaughan.com" target="_blank" rel="noopener noreferrer" class="connect-btn connect-blog">Read My Blog</a>
           <a href="https://www.linkedin.com/in/danielpvaughan" target="_blank" rel="noopener noreferrer" class="connect-btn connect-linkedin">LinkedIn</a>
@@ -26,7 +26,7 @@ description: Technology leader and software architect specialising in Agentic AI
 <section class="content-section bg-white" id="about">
   <div class="container">
     <h2>About me</h2>
-    <p>Twenty-five years across enterprise, startup and academic settings. My focus now is entirely on one shift: the point where AI stops being an experiment and becomes core to the organisation. I specialise in agentic AI, building production systems where human engineers and autonomous agents work together.</p>
+    <p>Twenty-five years across enterprise, startup and academic settings. My focus now is entirely on one shift: the point where AI stops being an experiment and becomes core to the organisation. I specialise in agentic AI: building production systems, and the agentic coworking practices, where human engineers and autonomous agents work side by side. The throughline of my career has been engineering quality and developer productivity. Agentic tooling is the step change that finally moves both at once.</p>
     <p>I build the culture and environments this new era of engineering demands. Entrepreneurial, customer-focused, with a strong bias for action. Whether advising leaders on AI adoption, standing up forward deployed engineering practices from scratch, or working hands-on with agentic workflows, the goal is the same: turn AI investment into proven results.</p>
   </div>
 </section>
@@ -36,12 +36,12 @@ description: Technology leader and software architect specialising in Agentic AI
     <h2>Current role</h2>
     <h3>Head of Forward Deployed Engineering, <a href="https://www.hcltech.com" target="_blank" rel="noopener noreferrer">HCLTech AI Labs</a></h3>
     <p>I lead HCLTech's global Forward Deployed Engineering practice in AI Labs. Engineers embedded with customers, deploying production AI inside complex enterprise environments, legacy systems, cautious security teams and real users who need to trust the output. Not consultants writing recommendations.</p>
-    <p>The practice runs multiple regional pods across the US, EMEA and APAC, each managing concurrent customer deployments. The model is lean: shared architect, two engineers and a team of coding agents. I built the practice from the ground up, from operating model and hiring through to engagement frameworks and quality standards.</p>
-    <p>Each engagement compounds into the next through field intelligence, reusable patterns and shared standards. End-to-end ownership of agentic AI delivery, from architecture through production to customer handover. Deep technical work across Google, OpenAI and Anthropic.</p>
+    <p>The practice runs multiple regional pods across the US, EMEA and APAC, each managing concurrent customer deployments. The model is lean: a shared architect, two engineers and a team of coding agents working through agentic tooling (Claude Code, Codex, Cursor, GitHub Copilot). A small team operating at the output of a much larger one, the same shift in productivity I help customers adopt internally. I built the practice from the ground up, from operating model and hiring through to engagement frameworks and quality standards.</p>
+    <p>Each engagement compounds into the next through a growing platform of reusable patterns, agent-maintained knowledge and shared engineering standards that get more capable with every deployment. End-to-end ownership of agentic AI delivery, from architecture through production to customer handover. Deep technical work across Google, OpenAI and Anthropic.</p>
     <p>Most AI projects stall between prototype and production. We exist to close that gap.</p>
     <h3>Previous experience</h3>
-    <p>Before HCLTech AI Labs, I was director of software engineering at <a href="https://www.vocalink.com/" target="_blank" rel="noopener noreferrer">Mastercard</a> in London, leading cloud strategy and architecture for <a href="https://b2b.mastercard.com/real-time-payments/" target="_blank" rel="noopener noreferrer">real-time payment products</a>. Before that, I held roles at HCL Cloud Native Labs, progressing from cloud native solutions expert to head of solutions architecture.</p>
-    <p>Earlier in my career, I spent eight years at the <a href="https://www.ebi.ac.uk" target="_blank" rel="noopener noreferrer">European Bioinformatics Institute</a> in Cambridge, starting as a software engineer and moving into engineering leadership. My focus was software quality and developer productivity.</p>
+    <p>Before HCLTech AI Labs, I was director of software engineering at <a href="https://www.vocalink.com/" target="_blank" rel="noopener noreferrer">Mastercard</a> in London, leading cloud strategy and architecture for <a href="https://b2b.mastercard.com/real-time-payments/" target="_blank" rel="noopener noreferrer">real-time payment products</a>. The work meant building and changing critical systems inside a highly regulated financial services environment, with the risk, compliance and change-management discipline that demands. Before that, I held roles at HCL Cloud Native Labs, progressing from cloud native solutions expert to head of solutions architecture.</p>
+    <p>Earlier in my career, I spent eight years at the <a href="https://www.ebi.ac.uk" target="_blank" rel="noopener noreferrer">European Bioinformatics Institute</a> in Cambridge, starting as a software engineer and moving into engineering leadership. My focus was software quality and developer productivity, the same problem I now solve with agentic tooling, fifteen years on.</p>
   </div>
 </section>
 

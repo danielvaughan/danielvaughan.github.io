@@ -104,3 +104,24 @@ build-iPhoneSimulator/
 # unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
 .rvmrc
 /Gemfile.lock
+
+# Node
+node_modules/
+
+# Jekyll build output
+_site/
+
+# macOS
+.DS_Store
+
+# IDE / local tooling
+.idea/
+.claude/
+.playwright-mcp/
+.superpowers/
+.tessl/
+
+# Local scratch
+tessl.log
+article-rewriter/
+workspace/
