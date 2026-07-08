@@ -17,7 +17,7 @@ description: Technology leader and software architect specialising in Agentic AI
         </div>
       </div>
       <div class="col-md-4 order-1 order-md-2 text-center mb-4 mb-md-0">
-        <img class="hero-photo" src="img/daniel-vaughan-en.jpg" srcset="img/daniel-vaughan-en.jpg 1x, img/daniel-vaughan-en@2x.jpg 2x" alt="Daniel Vaughan" width="200" height="200">
+        <img class="hero-photo" src="img/daniel-vaughan-july-2026-200.jpg" srcset="img/daniel-vaughan-july-2026-200.jpg 1x, img/daniel-vaughan-july-2026-400.jpg 2x" alt="Daniel Vaughan" width="200" height="200">
       </div>
     </div>
   </div>
