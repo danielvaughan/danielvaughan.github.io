@@ -36,7 +36,7 @@ description: Technology leader and software architect specialising in Agentic AI
     <h2>Current role</h2>
     <h3>Head of Forward Deployed Engineering, <a href="https://www.hcltech.com" target="_blank" rel="noopener noreferrer">HCLTech AI Labs</a></h3>
     <p>I lead HCLTech's global Forward Deployed Engineering practice in AI Labs. Engineers embedded with customers, deploying production AI inside complex enterprise environments, legacy systems, cautious security teams and real users who need to trust the output. Not consultants writing recommendations.</p>
-    <p>The practice runs multiple regional pods across the US, EMEA and APAC, each managing concurrent customer deployments. The model is lean: a shared architect, two engineers and a team of coding agents working through agentic tooling (Claude Code, Codex, Cursor, GitHub Copilot). A small team operating at the output of a much larger one, the same shift in productivity I help customers adopt internally. I built the practice from the ground up, from operating model and hiring through to engagement frameworks and quality standards.</p>
+    <p>The practice runs multiple regional pods across the US, EMEA and APAC, each managing concurrent customer deployments. The model is lean: a shared architect, two engineers and a team of coding agents working through agentic tooling (Claude Code, Codex, Antigravity). A small team operating at the output of a much larger one, the same shift in productivity I help customers adopt internally. I built the practice from the ground up, from operating model and hiring through to engagement frameworks and quality standards.</p>
     <p>Each engagement compounds into the next through a growing platform of reusable patterns, agent-maintained knowledge and shared engineering standards that get more capable with every deployment. End-to-end ownership of agentic AI delivery, from architecture through production to customer handover. Deep technical work across Google, OpenAI and Anthropic.</p>
     <p>Most AI projects stall between prototype and production. We exist to close that gap.</p>
     <h3>Previous experience</h3>
@@ -49,8 +49,13 @@ description: Technology leader and software architect specialising in Agentic AI
   <div class="container">
     <h2>Books &amp; recognition</h2>
     <div class="book-card mb-3">
+      <div class="book-title"><a href="https://www.amazon.co.uk/dp/B0H8SBZ2RJ/" target="_blank" rel="noopener noreferrer">Agentic Coding with OpenAI Codex CLI</a></div>
+      <div class="book-meta">Packt Publishing · Forthcoming, September 2026</div>
+      <p class="mb-0">A practitioner's guide to agentic software engineering with the Codex CLI, from first prompts to production workflows.</p>
+    </div>
+    <div class="book-card mb-3">
       <div class="book-title"><a href="https://cloudnativegcp.com" target="_blank" rel="noopener noreferrer">Cloud Native Development with Google Cloud</a></div>
-      <div class="book-meta">O'Reilly · January 2024</div>
+      <div class="book-meta">O'Reilly · November 2023</div>
       <p class="mb-0">A practical guide to building cloud native applications on Google Cloud, covering Kubernetes, Cloud Run and the full GCP ecosystem.</p>
     </div>
     <div class="book-card mb-4">
@@ -64,8 +69,7 @@ description: Technology leader and software architect specialising in Agentic AI
 <section class="content-section bg-alt" id="community">
   <div class="container">
     <h2>Community</h2>
-    <p>Community and skills development run through my career. I founded the Genome Campus Software Community and EMBL-EBI Technical Seminars Programme. I currently organise the <a href="https://www.meetup.com/cambridge-software-crafters/" target="_blank" rel="noopener noreferrer">Software Crafters Cambridge</a> Meetup group.</p>
-    <p class="mb-0">I live in Saffron Walden with my wife Michelle and son Alex.</p>
+    <p class="mb-0">Community and skills development run through my career. I founded the Genome Campus Software Community and EMBL-EBI Technical Seminars Programme. I currently co-organise <a href="https://www.meetup.com/cambridge-software-crafters/" target="_blank" rel="noopener noreferrer">Software Crafters Cambridge</a>, a 1,000-member developer community now in its second decade, running monthly workshops.</p>
   </div>
 </section>
 
