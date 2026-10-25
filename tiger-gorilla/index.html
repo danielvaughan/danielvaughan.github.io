@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Play Tiger Gorilla · Dalex Software</title>
+  <meta name="description" content="Play Tiger Gorilla for the ZX Spectrum in your browser. Swing through the jungle, catch parrots and feed the babies.">
+  <link rel="canonical" href="https://danielvaughan.com/tiger-gorilla/">
+  <link rel="icon" href="/favicon.ico">
+  <style>
+    :root { color-scheme: dark; font-family: system-ui, sans-serif; background: #101810; color: #edf0df; }
+    * { box-sizing: border-box; }
+    body { margin: 0; padding: 28px 20px; }
+    main { max-width: 800px; margin: auto; }
+    header { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; margin-bottom: 20px; flex-wrap: wrap; }
+    h1 { font-size: clamp(1.8rem, 5vw, 2.6rem); margin: 4px 0; letter-spacing: -.04em; }
+    .label { color: #b8c995; font-size: .75rem; text-transform: uppercase; letter-spacing: .16em; }
+    a { color: #c6dfa0; text-underline-offset: 3px; }
+    .screen { position: relative; background: #000; aspect-ratio: 4 / 3; border: 1px solid #42543a; overflow: hidden; }
+    #emulator { width: 100%; height: 100%; outline-offset: -4px; }
+    #emulator canvas { display: block; width: 100% !important; height: auto !important; image-rendering: pixelated; }
+    #emulator > div { width: 100% !important; height: 100% !important; }
+    #emulator button { display: none !important; }
+    #cover { position: absolute; inset: 0; display: flex; align-items: end; padding: clamp(16px, 4vw, 32px); background: linear-gradient(transparent 35%, #081107ee), url('cover.jpg') center 43% / cover; }
+    #cover p { max-width: 380px; font-size: clamp(.9rem, 2vw, 1.15rem); line-height: 1.5; margin: 0 0 16px; text-shadow: 0 1px 4px #000; }
+    .gallery { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 28px; }
+    figure { margin: 0; }
+    figure img { width: 100%; image-rendering: pixelated; border: 1px solid #35432d; display: block; }
+    figcaption { color: #bcc7ae; font-size: .85rem; margin-top: 8px; }
+    [hidden] { display: none !important; }
+    button { font: inherit; font-weight: 650; color: #edf0df; border: 1px solid #536746; border-radius: 6px; background: #263622; padding: 10px 18px; cursor: pointer; min-height: 44px; }
+    button:hover { background: #364d2e; }
+    button:disabled { opacity: .5; cursor: default; }
+    button:focus-visible, a:focus-visible, #emulator:focus-visible { outline: 3px solid #e5c46d; outline-offset: 3px; }
+    #play { background: #d5e9a8; color: #16200f; border: none; font-size: 1.15rem; padding: 16px 32px; }
+    .toolbar { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 14px; }
+    #status { min-height: 1.5em; color: #c6cfb7; line-height: 1.5; margin: 14px 0; }
+    .controls { border-top: 1px solid #35432d; padding-top: 16px; }
+    .controls p { margin: 0 0 14px; line-height: 1.6; }
+    dl { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px 24px; margin: 0; }
+    dt { font-weight: 650; margin-bottom: 5px; }
+    dd { margin: 0; color: #bcc7ae; font-size: .9rem; }
+    kbd { font: inherit; font-size: .85em; background: #273321; border: 1px solid #536746; border-radius: 4px; padding: 2px 6px; white-space: nowrap; }
+    footer { margin-top: 28px; color: #9aa98c; font-size: .8rem; line-height: 1.7; }
+    @media (max-width: 520px) { body { padding: 16px 12px; } dl { grid-template-columns: repeat(2, 1fr); } }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div><span class="label">Dalex Software · ZX Spectrum 128K</span><h1>Tiger Gorilla</h1></div>
+      <a href="/">Daniel Vaughan</a>
+    </header>
+    <div class="screen">
+      <div id="emulator" tabindex="0" role="region" aria-label="Tiger Gorilla game. Use the keyboard controls below."></div>
+      <div id="cover"><div><p>A tiger-striped gorilla. A turbo-charged bottom. Twelve levels of jungle mischief.</p><button id="play" type="button">Play Tiger Gorilla</button></div></div>
+    </div>
+    <div class="toolbar" aria-label="Game controls">
+      <button id="pause" type="button" disabled>Pause</button>
+      <button id="fullscreen" type="button" disabled>Fullscreen</button>
+      <button id="restart" type="button" disabled>Restart</button>
+    </div>
+    <p id="status" role="status">A keyboard is needed to play. Click Play to load the game with sound.</p>
+    <div class="controls">
+      <p>At the title screen, press <kbd>2</kbd> for keyboard, then <kbd>Space</kbd> to start. Swing through the jungle, catch parrots and feed the babies.</p>
+      <dl>
+        <div><dt><kbd>O</kbd> / <kbd>P</kbd></dt><dd>Move left / right; pump a swing</dd></div>
+        <div><dt><kbd>Space</kbd></dt><dd>Let go / start</dd></div>
+        <div><dt>Hold <kbd>A</kbd></dt><dd>Drop</dd></div>
+        <div><dt><kbd>Q</kbd> / <kbd>W</kbd></dt><dd>Boost up / sideways</dd></div>
+        <div><dt><kbd>S</kbd></dt><dd>Invisibility</dd></div>
+        <div><dt><kbd>H</kbd></dt><dd>Pause in game</dd></div>
+        <div><dt><kbd>M</kbd></dt><dd>Music on / off at title or in-game pause</dd></div>
+        <div><dt><kbd>Z</kbd></dt><dd>Choose start zone at title</dd></div>
+      </dl>
+    </div>
+    <div class="gallery" aria-label="Screenshots from Tiger Gorilla">
+      <figure><img src="jungle.png" alt="Tiger Gorilla gameplay among jungle trees and hanging vines" width="320" height="240" loading="lazy"><figcaption>Catch parrots. Feed the hungry babies.</figcaption></figure>
+      <figure><img src="canopy.png" alt="Tiger Gorilla gameplay showing another part of the jungle" width="320" height="240" loading="lazy"><figcaption>Dodge photographers, crocodiles and camera drones.</figcaption></figure>
+    </div>
+    <noscript><p>Please enable JavaScript to play Tiger Gorilla.</p></noscript>
+    <footer>Emulated with <a href="https://jsspeccy.zxdemo.org/">JSSpeccy</a> by Matt Westcott · <a href="jsspeccy/COPYING">GPL-3.0</a> · <a href="jsspeccy/README.md">Emulator source &amp; credits</a> · <a href="tiger-gorilla.tap" download>Download the tape</a></footer>
+  </main>
+  <script src="jsspeccy/jsspeccy.js"></script>
+  <script src="player.js"></script>
+</body>
+</html>
