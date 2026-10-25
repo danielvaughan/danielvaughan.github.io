@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Play WOLF · Dalex Software</title>
+  <meta name="description" content="Play WOLF for the ZX Spectrum in your browser. Join the WOLF Pack: lift, keep your rhythm and stay off the red-dot board.">
+  <link rel="canonical" href="https://danielvaughan.com/wolf/">
+  <link rel="icon" href="/favicon.ico">
+  <style>
+    :root { color-scheme: dark; font-family: system-ui, sans-serif; background: #171514; color: #f3ede2; }
+    * { box-sizing: border-box; }
+    body { margin: 0; padding: 28px 20px; }
+    main { max-width: 800px; margin: auto; }
+    header { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; margin-bottom: 20px; flex-wrap: wrap; }
+    h1 { font-size: clamp(1.8rem, 5vw, 2.6rem); margin: 4px 0; letter-spacing: -.04em; }
+    .label { color: #d8b77f; font-size: .75rem; text-transform: uppercase; letter-spacing: .16em; }
+    a { color: #edc68b; text-underline-offset: 3px; }
+    .screen { position: relative; background: #000; aspect-ratio: 4 / 3; border: 1px solid #66503a; overflow: hidden; }
+    #emulator { width: 100%; height: 100%; outline-offset: -4px; }
+    #emulator canvas { display: block; width: 100% !important; height: auto !important; image-rendering: pixelated; }
+    #emulator > div { width: 100% !important; height: 100% !important; }
+    #emulator button { display: none !important; }
+    #cover { position: absolute; inset: 0; display: flex; align-items: end; padding: clamp(16px, 4vw, 32px); background: linear-gradient(transparent 35%, #17100aee), url('cover.jpg') center 43% / cover; }
+    #cover p { max-width: 380px; font-size: clamp(.9rem, 2vw, 1.15rem); line-height: 1.5; margin: 0 0 16px; text-shadow: 0 1px 4px #000; }
+    .gallery { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 28px; }
+    figure { margin: 0; }
+    figure img { width: 100%; image-rendering: pixelated; border: 1px solid #493c30; display: block; }
+    figcaption { color: #c9bdad; font-size: .85rem; margin-top: 8px; }
+    [hidden] { display: none !important; }
+    button { font: inherit; font-weight: 650; color: #f3ede2; border: 1px solid #796046; border-radius: 6px; background: #3b2f23; padding: 10px 18px; cursor: pointer; min-height: 44px; }
+    button:hover { background: #51402d; }
+    button:disabled { opacity: .5; cursor: default; }
+    button:focus-visible, a:focus-visible, #emulator:focus-visible { outline: 3px solid #e5c46d; outline-offset: 3px; }
+    #play { background: #efc781; color: #251b10; border: none; font-size: 1.15rem; padding: 16px 32px; }
+    .toolbar { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 14px; }
+    #status { min-height: 1.5em; color: #d7c9b5; line-height: 1.5; margin: 14px 0; }
+    .controls { border-top: 1px solid #493c30; padding-top: 16px; }
+    .controls p { margin: 0 0 14px; line-height: 1.6; }
+    dl { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px 24px; margin: 0; }
+    dt { font-weight: 650; margin-bottom: 5px; }
+    dd { margin: 0; color: #c9bdad; font-size: .9rem; }
+    kbd { font: inherit; font-size: .85em; background: #3b3025; border: 1px solid #796046; border-radius: 4px; padding: 2px 6px; white-space: nowrap; }
+    footer { margin-top: 28px; color: #b5a68f; font-size: .8rem; line-height: 1.7; }
+    @media (max-width: 520px) { body { padding: 16px 12px; } dl { grid-template-columns: repeat(2, 1fr); } }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div><span class="label">Dalex Software · ZX Spectrum 128K</span><h1>WOLF</h1></div>
+      <a href="/">Daniel Vaughan</a>
+    </header>
+    <div class="screen">
+      <div id="emulator" tabindex="0" role="region" aria-label="WOLF game. Use the keyboard controls below."></div>
+      <div id="cover"><div><p>Join the WOLF Pack. Find your rhythm. Earn your place on the board.</p><button id="play" type="button">Play WOLF</button></div></div>
+    </div>
+    <div class="toolbar" aria-label="Game controls">
+      <button id="pause" type="button" disabled>Pause</button>
+      <button id="fullscreen" type="button" disabled>Fullscreen</button>
+      <button id="restart" type="button" disabled>Restart</button>
+    </div>
+    <p id="status" role="status">A keyboard is needed to play. Click Play to load the game with sound.</p>
+    <div class="controls">
+      <p>Press <kbd>Space</kbd> to start and advance the opening screens. Alternate <kbd>O</kbd> and <kbd>P</kbd> steadily during a set, and tap <kbd>Space</kbd> when the TOP and BOTTOM lamps light.</p>
+      <dl>
+        <div><dt><kbd>O</kbd> / <kbd>P</kbd></dt><dd>Walk left / right</dd></div>
+        <div><dt>Alternate <kbd>O</kbd> and <kbd>P</kbd></dt><dd>Pump during sets, sled, bike and ski; break away from chats</dd></div>
+        <div><dt><kbd>Space</kbd></dt><dd>Interact / start; hit the top and bottom beats during reps</dd></div>
+        <div><dt><kbd>A</kbd></dt><dd>Ask for more weight after a clean set</dd></div>
+        <div><dt><kbd>H</kbd></dt><dd>Pause / resume in game</dd></div>
+        <div><dt><kbd>B</kbd></dt><dd>View the board while paused; sneak off at the finisher card</dd></div>
+        <div><dt><kbd>M</kbd></dt><dd>Music on / off at title or in-game pause</dd></div>
+        <div><dt><kbd>Q</kbd></dt><dd>Quit to title while paused</dd></div>
+      </dl>
+    </div>
+    <div class="gallery" aria-label="Screenshots from WOLF">
+      <figure><img src="gym.png" alt="WOLF gameplay in the gym" width="320" height="240" loading="lazy"><figcaption>Find your station. Keep up with the pack.</figcaption></figure>
+      <figure><img src="training.png" alt="WOLF gameplay during a training session" width="320" height="240" loading="lazy"><figcaption>Keep your form. Keep the red dots off the board.</figcaption></figure>
+    </div>
+    <noscript><p>Please enable JavaScript to play WOLF.</p></noscript>
+    <footer>Emulated with <a href="https://jsspeccy.zxdemo.org/">JSSpeccy</a> by Matt Westcott · <a href="../tiger-gorilla/jsspeccy/COPYING">GPL-3.0</a> · <a href="../tiger-gorilla/jsspeccy/README.md">Emulator source &amp; credits</a> · <a href="wolf.tap" download>Download the tape</a></footer>
+  </main>
+  <script src="../tiger-gorilla/jsspeccy/jsspeccy.js"></script>
+  <script src="player.js"></script>
+</body>
+</html>
